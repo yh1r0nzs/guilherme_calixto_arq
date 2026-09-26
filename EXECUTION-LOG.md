@@ -73,3 +73,39 @@
 ### Pendências
 
 - Nome do projeto de extensão, grafia do nome de quem orienta, situação da casa, autorização por escrito e material.
+
+---
+
+## 2026-09-26 — F1 Identidade: decisões de marca e opções de fundo
+
+**IA/Agente:** Claude (Claude Code)  
+**Modelo:** Opus 5.5 (`claude-opus-5-5`)  
+**Etapa executada:** F1 — Identidade (início)
+
+**Arquivos alterados:**
+
+- `PLANNING.md`
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+- Fora do repositório: canvas com 3 opções de fundo da Home (https://claude.ai/artifact/ATyxnNcovmBBY1XWuahBp8)
+
+**O que foi feito:**
+
+- Registradas as decisões do responsável: A1 = toda a estrutura; B1 = só o nome em tipografia; B2 = "Guilherme Calixto"; A4 = mostrar opções.
+- Montadas 3 versões da Home (claro, escuro, misto) com a mesma estrutura e conteúdo provisório entre colchetes.
+
+**Data/hora:** 2026-09-26
+
+### Decisão relacionada
+
+- D-01, D-03 e D-04 fechadas. D-02 aguardando a escolha do cliente.
+
+### Validação
+
+- Nenhum dado inventado: textos, fotos, contatos e redes aparecem como `[placeholder — pergunta]`. O único dado real usado é a formação (UNIFACIG).
+- Sem cor de destaque (A5 aberta) e sem seções que dependem de material inexistente (time, mídia, selos).
+- Tipografia marcada como provisória.
+
+### Pendências
+
+- Escolha do fundo e resposta da A5; aprovação da tipografia.

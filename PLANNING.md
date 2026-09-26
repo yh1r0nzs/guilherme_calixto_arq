@@ -76,7 +76,7 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 - Publicação na Vercel com domínio próprio.
 
 ### 3.2 Fora da v1 (proposta → aprovação antes de incluir)
-- Redesign de marca/logo: **serviço opcional**, depende da proposta **[A CONFIRMAR — B1]**.
+- Redesign de marca/logo: **fora da v1** (decidido em 2026-09-26, B1).
 - CMS para o cliente publicar sozinho **[A CONFIRMAR — E4]**.
 - Versão em inglês **[A CONFIRMAR — H1]**.
 - Depoimentos, newsletter, área de downloads pagos, infoprodutos **[A CONFIRMAR — H2, H3]**.
@@ -177,11 +177,27 @@ featured: boolean
 ## 7. Direção visual
 
 - **Estilo:** clean, moderno, minimalista e com tipografia forte (briefing §3).
-- **Marca:** o nome do arquiteto em tipografia até a decisão sobre redesign **[B1, B2]**. A logo atual (1º período) **não** será usada.
+- **Marca:** o nome **"Guilherme Calixto"** em tipografia, sem logo (D-03 e D-04, 2026-09-26). A logo atual (1º período) **não** será usada. O redesign de logo sai da proposta da v1.
 - **Cores:** base preto/branco/cinzas; cor de destaque a definir **[A4, A5]**.
 - **Tipografia:** uma display forte (caixa-alta, geométrica) + uma de texto legível para artigos longos. Escolha final na F1, sem copiar as fontes da referência.
 - **Imagens:** renders são o conteúdo principal, então a interface deve ficar em segundo plano.
+- **Estrutura:** o cliente gostou de **toda a estrutura** da referência (D-01). Segue valendo a regra da §2.2: as seções que dependem de material que ele não tem (time, destaques impressos, selos, infoprodutos) só entram com material real.
 - **Evitar (AI-GUARDRAIL §6):** excesso de cards, gradientes decorativos, animações sem função, textos placeholder apresentados como finais.
+
+### 7.1 Opções de fundo (D-02) — 2026-09-26
+
+Três versões da Home, com a mesma estrutura e o mesmo conteúdo provisório, para o cliente escolher:
+
+| Opção | Descrição |
+| --- | --- |
+| A — Claro | Fundo off-white `#F5F3EF`, texto `#141414` |
+| B — Escuro | Fundo `#111111`, texto `#F2F0EC` |
+| C — Misto | Base clara; abertura e contato em faixa escura |
+
+- Tipografia usada nas opções (**provisória**, ainda não aprovada): Archivo, em largura expandida e peso 800 nos títulos e na assinatura.
+- Nenhuma cor de destaque foi usada; A5 segue aberta.
+- Todo o conteúdo entre colchetes é provisório e aponta para a pergunta que o preenche.
+- Link das opções: https://claude.ai/artifact/ATyxnNcovmBBY1XWuahBp8
 
 ---
 
@@ -253,10 +269,10 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 
 | # | Decisão | Pergunta |
 | --- | --- | --- |
-| D-01 | O que agradou na referência | A1, A2 |
-| D-02 | Paleta e cor de destaque | A4, A5 |
-| D-03 | Redesign de logo na proposta | B1 |
-| D-04 | Assinatura/nome da marca | B2 |
+| D-01 | O que agradou na referência | A1, A2 — **Fechada (2026-09-26): toda a estrutura.** A2 segue aberta |
+| D-02 | Paleta e cor de destaque | A4, A5 — **Em andamento:** 3 opções de fundo montadas para o cliente escolher (§7.1). A5 aberta |
+| D-03 | Redesign de logo na proposta | B1 — **Fechada (2026-09-26): não.** Só o nome em tipografia |
+| D-04 | Assinatura/nome da marca | B2 — **Fechada (2026-09-26): "Guilherme Calixto"** |
 | D-05 | Artigos: página própria ou destaque na Home | E1 |
 | D-06 | Formato do TCC (PDF completo / resumo) | E3 |
 | D-07 | CMS (cliente publica sozinho?) | E4 |
