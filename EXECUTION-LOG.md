@@ -64,3 +64,24 @@
 ### Pendências
 
 - Arquivo da logo; significado de "terceirizado"; E1 e F1 sem resposta.
+
+---
+
+## 2026-09-26 — Descoberta (F0) — respostas da rodada 2
+
+**IA/Agente:** Claude (Claude Code)  
+**Etapa executada:** Registro das respostas do cliente e atualização do planejamento
+
+**Arquivos alterados:**
+
+- `RESPOSTAS-CLIENTE.md`
+- `PLANNING.md`
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+
+**O que foi feito:**
+
+- Registradas as respostas sobre renders de terceiros, plantas, TCC, ação principal, assinatura e redes.
+- `PLANNING.md`: nova seção `/renders`, Home com o Sobre em destaque, campos `section`/`projectAuthor`, D-06/D-08/D-12 fechadas, D-13 criada, risco de uso de "arquiteto" sem CAU.
+
+**Data/hora:** 2026-09-26

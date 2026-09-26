@@ -2,7 +2,7 @@
 
 > Fonte de verdade do projeto (ver `AI-GUARDRAIL.md` §13 e §15).
 > Itens marcados **[A CONFIRMAR]** dependem de resposta do cliente e apontam para o ID da pergunta em `PERGUNTAS-CLIENTE.md`.
-> Última atualização: 2026-09-26 (respostas da rodada 1 em `RESPOSTAS-CLIENTE.md`)
+> Última atualização: 2026-09-26 (respostas das rodadas 1 e 2 em `RESPOSTAS-CLIENTE.md`)
 
 ---
 
@@ -10,14 +10,14 @@
 
 | Item | Definição |
 | --- | --- |
-| Cliente | Guilherme Calixto, arquiteto |
+| Cliente | Guilherme Calixto, estudante de arquitetura (ainda sem registro no CAU) |
 | Contato | cgarquitetura27@gmail.com · (32) 98454-2644 |
 | Domínio pretendido | `guilhermecalixtoarq.com.br` (consulta/registro no Registro.br) **[A CONFIRMAR — G1]** |
 | Prazo | Sem prazo definido no briefing |
 | Problema | Ausência de visibilidade e de posicionamento digital |
 | Objetivo | Ganhar visibilidade, reconhecimento e autoridade técnica/conceitual |
 | Público | Estudantes de arquitetura, arquitetos, engenheiros e clientes finais de interiores |
-| Tipo de solução | Portfólio digital híbrido: projetos + hub acadêmico (artigos/TCC) |
+| Tipo de solução | Portfólio pessoal: quem é o Guilherme + projetos autorais + renders para terceiros. Artigos só se houver material **[E2]**; TCC fora da v1 |
 
 **Dois públicos, duas intenções:**
 - **Profissionais/estudantes** → querem ler, aprender, reconhecer autoridade (artigos, TCC, projetos acadêmicos).
@@ -68,7 +68,7 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 - Site institucional/portfólio responsivo em Next.js.
 - Páginas: Home, Projetos (lista), Projeto (detalhe), Artigos (lista), Artigo (detalhe), Sobre, Contato *(mapa final pendente — ver §4)*.
 - Poucos projetos na v1, misturando acadêmicos e de interiores (briefing §4) **[A CONFIRMAR — D1]**.
-- Estrutura pronta para artigos e TCC, mesmo com pouco conteúdo no lançamento **[A CONFIRMAR — E2]**.
+- Artigos: só entram na v1 se já houver material **[A CONFIRMAR — E2]**. **TCC fora da v1**: ainda não começou (rodada 2).
 - CTA principal de contato **[A CONFIRMAR — F1]**.
 - SEO básico, Open Graph, sitemap, performance e acessibilidade.
 - Publicação na Vercel com domínio próprio.
@@ -86,22 +86,23 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 
 ```text
 /                     Home
-/projetos             Lista de projetos (filtro: Acadêmico | Interiores)
-/projetos/[slug]      Detalhe do projeto
-/artigos              Lista de artigos/TCC (filtro por tema)       [A CONFIRMAR — E1]
-/artigos/[slug]       Detalhe do artigo
-/sobre                Sobre o arquiteto
-/contato              Contato (ou só seção no rodapé)              [A CONFIRMAR — F1]
+/projetos             Projetos autorais do GC (plantas, renders, esquemas)
+/projetos/[slug]      Detalhe do projeto autoral
+/renders              Visualização 3D para terceiros ("Projeto: X · Render: Guilherme Calixto")
+/renders/[slug]       Detalhe do render (galeria + créditos)
+/artigos              Só se houver artigos no lançamento            [A CONFIRMAR — E2]
+/sobre                Quem é, o que faz, onde atua (página central — F1)
+/contato              Seção no rodapé: Instagram, WhatsApp, e-mail, LinkedIn (talvez)
 ```
 
 ### 4.1 Home — ordem proposta dos blocos
-1. **Abertura:** nome em tipografia forte + frase de posicionamento **[C1]** + redes sociais **[F4]**.
-2. **Projetos em destaque:** 2 a 3 projetos em blocos grandes **[D3]**.
-3. **Conteúdo acadêmico:** artigos/TCC em destaque **[E1]**.
-4. **Sobre (resumo):** foto + texto curto + link para /sobre **[C5]**.
-5. **Contato:** CTA principal **[F1]** + WhatsApp/e-mail **[F3]**.
+1. **Abertura:** logo + "Guilherme Calixto" + descritor (ex.: projetista · visualização 3D) **[B2]** + redes sociais.
+2. **Sobre:** quem é, o que faz, onde atua + foto + link para /sobre **[C1–C5]**. É a ação principal do site (F1, rodada 2).
+3. **Projetos autorais:** 2 a 3 em blocos grandes **[D3]**.
+4. **Renders (visualização 3D):** blocos com crédito do autor de cada projeto.
+5. **Contato:** Instagram, WhatsApp, e-mail e, talvez, LinkedIn **[F4]**.
 
-> A ordem 2 e 3 depende de qual público é prioridade (F1).
+> Artigos entram como bloco entre 4 e 5 só se houver material no lançamento **[E2]**.
 
 ---
 
@@ -132,8 +133,9 @@ location: string
 area: string?               # opcional
 cover: string               # caminho da imagem hero
 gallery: string[]           # renders
-authorship: autoral | render   # render = projeto de terceiro, só visualização 3D [A CONFIRMAR — D2]
-credits: string?            # autor do projeto, quando não for autoral
+section: autoral | render   # autoral → /projetos; render → /renders (rodada 2)
+projectAuthor: string?      # obrigatório quando section = render ("Projeto autoral de: X")
+# render sempre creditado como "Render: Guilherme Calixto"
 drawings: string[]          # plantas/esquemas
 featured: boolean           # aparece na Home
 order: number
@@ -224,7 +226,9 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 - [ ] Renders e plantas dos projetos da v1 (em alta resolução).
 - [ ] Textos de conceito de cada projeto, ou tópicos para redação.
 - [ ] Foto profissional e texto/dados para o “Sobre”.
-- [ ] Artigos e TCC (arquivos) para o lançamento.
+- [ ] Artigos (se houver) para o lançamento. TCC fora da v1.
+- [ ] Autorização de cada autor dos projetos renderizados.
+- [ ] Links de Instagram e LinkedIn.
 - [ ] Registro do domínio (titularidade em CPF/CNPJ do cliente).
 - [ ] Aprovações nas fases F1, F2 e antes do lançamento.
 
@@ -238,14 +242,15 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | D-02 | Paleta e cor de destaque — dourado da logo como candidato | A4, A5 |
 | D-03 | Redesign de logo — **cliente prefere a logo C + A que já tem**; falta o arquivo e confirmar se é a do 1º período | B1 |
 | D-04 | Assinatura/nome da marca | B2 |
-| D-05 | Artigos: página própria ou destaque na Home | E1 |
-| D-06 | Formato do TCC (PDF completo / resumo) | E3 |
+| D-05 | Artigos: página própria ou destaque na Home — **depende de haver artigos prontos** | E1, E2 |
+| D-06 | ~~Formato do TCC~~ — **fechada:** TCC fora da v1 (ainda não começou) | E3 |
 | D-07 | CMS (cliente publica sozinho?) | E4 |
-| D-08 | CTA principal (WhatsApp / formulário / artigos) | F1 |
+| D-08 | ~~CTA principal~~ — **fechada:** conhecer o Guilherme (Sobre em destaque); contato por Instagram, WhatsApp, e-mail | F1 |
 | D-09 | Domínio registrado e titular | G1 |
 | D-10 | Analytics + aviso de cookies (LGPD) | G4 |
 | D-11 | Estilização: CSS Modules ou Tailwind | Interna (F3) |
-| D-12 | Renders "terceirizados": o que são, crédito ao autor e autorização | D2, D5 |
+| D-12 | Renders para terceiros — **formato fechado** (seção própria, "Projeto: X · Render: GC"); falta a autorização de cada autor | D5 |
+| D-13 | Descritor da assinatura ("projetista", "visualização 3D"…) sem usar "arquiteto" | B2 |
 
 ---
 
@@ -258,5 +263,6 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | Renders muito pesados | Site lento, SEO ruim | `next/image`, compressão, tamanhos responsivos |
 | Imitar a referência sem ter a mesma trajetória | Soa genérico/forçado | Usar só as seções que tenham material real (§2.2) |
 | Projetos de clientes sem autorização | Problema ético/legal | Confirmar permissão **[D5]** |
-| Renders de projetos de terceiros sem crédito | Parecer que o projeto é do Guilherme; problema ético/legal | Campo `credits` e selo "Visualização 3D" na página **[D-12]** |
+| Renders de projetos de terceiros sem crédito | Parecer que o projeto é do Guilherme; problema ético/legal | Seção separada + campo `projectAuthor` obrigatório + autorização do autor **[D-12, D5]** |
+| Uso de "arquiteto"/"arquitetura" sem registro no CAU | Exercício ilegal da profissão (Lei 12.378/2010); problema com o CAU | Assinatura sem "arquiteto"; revisar o "arq" do domínio e o "A" da logo com o cliente **[B2, G1]** |
 | Domínio indisponível | Atraso no lançamento | Checar no Registro.br e ter alternativas **[G1]** |

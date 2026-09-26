@@ -35,3 +35,41 @@
 - **F1** — Principal ação dos botões: WhatsApp, formulário de orçamento ou leitura de artigos.
 - **G1** — Domínio registrado.
 - Demais ★: B2, C1, C2, D1, D3, D5, E2, E4.
+
+---
+
+## Rodada 2 — 2026-09-26
+
+### Respostas recebidas
+
+| Pergunta | Resposta do cliente | Status |
+| --- | --- | --- |
+| **D2 / dúvida 3** — Renders "terceirizados" | Crédito no formato "Projeto autoral de: [pessoa] · Render: Guilherme Calixto" | Respondida |
+| **dúvida 4** — Plantas e esquemas | Tudo o que for do GC (plantas, renders etc.) fica separado na seção **Projetos autorais** | Respondida |
+| **E3** — TCC | Ainda é uma ideia; está longe de começar | Respondida → TCC fora da v1 |
+| **F1** — Ação principal | A pessoa entra no site para ler sobre o Guilherme: quem é, o que faz, onde atua | Respondida → Sobre em destaque |
+| **B2** — Assinatura | "Guilherme Calixto". Como ainda não é arquiteto, pensa em um descritor com "3D", "projetista" etc. | Respondida; descritor a definir |
+| **F4** — Redes | Instagram, WhatsApp, e-mail e talvez LinkedIn | Respondida; faltam os links |
+
+### Consequências no planejamento
+
+- Duas seções de trabalho: **Projetos autorais** (`/projetos`) e **Renders / Visualização 3D** (`/renders`).
+- A Home passa a abrir com o **Sobre** logo após a abertura.
+- Sem formulário de orçamento na v1: contato pelos canais diretos.
+
+### Ponto de atenção
+
+Sem registro no CAU, ele não pode se apresentar como arquiteto (Lei 12.378/2010). A assinatura já evita isso. Vale conferir com ele:
+- o domínio `guilhermecalixtoarq.com.br` (o "arq" pode ser lido como "arquiteto");
+- o "A" da logo, se significar "Arquitetura";
+- o e-mail "cgarquitetura".
+
+### Ainda sem resposta
+
+- Arquivo da logo e se é a do 1º período (B1).
+- Artigos: já existe algum pronto além do TCC? (E1, E2)
+- Autorização dos autores dos projetos renderizados (D5).
+- Formação/período e cidade de atuação (C2, C4); frase de apresentação (C1).
+- Lista de projetos da v1 (D1) e destaques (D3).
+- Links do Instagram e do LinkedIn (F4).
+- Domínio registrado (G1).

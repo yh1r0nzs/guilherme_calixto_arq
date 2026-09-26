@@ -12,26 +12,28 @@
 ### Decisões
 
 - Stack: **Next.js (App Router) + TypeScript**, hospedagem na Vercel.
-- Conteúdo da v1 em MDX no repositório; CMS só se o cliente quiser publicar sozinho (E4).
-- Não copiar da referência as seções sem material real (time, mídia impressa, selos, infoprodutos).
-- **Novo:** a estrutura geral da referência agradou (A1, item 4). A ordem de seções do `PLANNING.md` §4.1 segue válida.
-- **Novo:** o cliente quer usar a logo que já tem (C + A dourado) em vez de um redesign (B1).
+- Conteúdo da v1 em MDX no repositório.
+- Estrutura geral da referência aprovada (A1).
+- Logo: o cliente quer usar a que já tem, C + A dourado (B1).
+- **Rodada 2:** duas seções de trabalho, Projetos autorais e Renders para terceiros ("Projeto: X · Render: Guilherme Calixto").
+- **Rodada 2:** ação principal = conhecer o Guilherme; o Sobre vem logo após a abertura na Home. Contato por Instagram, WhatsApp, e-mail e talvez LinkedIn.
+- **Rodada 2:** assinatura "Guilherme Calixto" + descritor sem "arquiteto" (ex.: projetista, 3D). TCC fora da v1.
 
 ### Alterações
 
-- `PLANNING.md`: marca, cor de destaque (dourado), campos `authorship`/`credits` no modelo de projeto, decisões D-01/D-02/D-03 atualizadas, nova D-12 e novo risco (crédito de renders de terceiros).
+- `PLANNING.md`: mapa do site (novo `/renders`), ordem da Home, modelo de projeto (`section`, `projectAuthor`), D-06/D-08/D-12 fechadas, nova D-13 e novo risco (uso de "arquiteto" sem CAU).
 
 ### Pendências
 
-- Receber o arquivo da logo e confirmar se é a do 1º período.
-- Esclarecer o que são os renders "terceirizados" (D-12).
-- Perguntas ★ sem resposta: B2, C1, C2, D1, D3, D5, E1, E2, E4, F1, G1.
-- Receber os materiais: renders, plantas (se houver), textos, foto e artigos/TCC.
+- Arquivo da logo; se é a do 1º período.
+- Artigos prontos (E2) — se não houver, a seção fica fora da v1.
+- Autorização dos autores dos projetos renderizados (D5).
+- C1, C2, C4, D1, D3, links das redes, G1.
 
 ### Problemas
 
-- A resposta sobre a logo contradiz o briefing, que chama a logo do 1º período de desatualizada. Precisa ser esclarecido antes da F1.
+- Nome "arq" no domínio, "A" da logo e e-mail "cgarquitetura" podem sugerir que ele é arquiteto. Conferir com o cliente antes de registrar o domínio.
 
 ### Próximo passo
 
-- Enviar ao cliente as dúvidas da rodada 1 (`RESPOSTAS-CLIENTE.md`) junto com E1 e F1, que continuam sem resposta.
+- Enviar ao cliente as perguntas pendentes da rodada 2 (`RESPOSTAS-CLIENTE.md`). Com D1, C1–C4 e o arquivo da logo, iniciar a F1 (Identidade).
