@@ -2,7 +2,7 @@
 
 > Fonte de verdade do projeto (ver `AI-GUARDRAIL.md` §13 e §15).
 > Itens marcados **[A CONFIRMAR]** dependem de resposta do cliente e apontam para o ID da pergunta em `PERGUNTAS-CLIENTE.md`.
-> Última atualização: 2026-09-24
+> Última atualização: 2026-09-26
 
 ---
 
@@ -18,6 +18,7 @@
 | Objetivo | Ganhar visibilidade, reconhecimento e autoridade técnica/conceitual |
 | Público | Estudantes de arquitetura, arquitetos, engenheiros e clientes finais de interiores |
 | Tipo de solução | Portfólio digital híbrido: projetos + hub acadêmico (artigos/TCC) |
+| Faculdade | UNIFACIG (resposta de 2026-09-26) |
 
 **Dois públicos, duas intenções:**
 - **Profissionais/estudantes** → querem ler, aprender, reconhecer autoridade (artigos, TCC, projetos acadêmicos).
@@ -68,6 +69,7 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 - Site institucional/portfólio responsivo em Next.js.
 - Páginas: Home, Projetos (lista), Projeto (detalhe), Artigos (lista), Artigo (detalhe), Sobre, Contato *(mapa final pendente — ver §4)*.
 - Poucos projetos na v1, misturando acadêmicos e de interiores (briefing §4) **[A CONFIRMAR — D1]**.
+- Projeto de extensão da UNIFACIG (1 casa) como candidato a projeto da v1 — ver §5.1.
 - Estrutura pronta para artigos e TCC, mesmo com pouco conteúdo no lançamento **[A CONFIRMAR — E2]**.
 - CTA principal de contato **[A CONFIRMAR — F1]**.
 - SEO básico, Open Graph, sitemap, performance e acessibilidade.
@@ -116,6 +118,25 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 7. Galeria de renders (grade + visualização ampliada).
 8. Plantas baixas / esquemas / diagramas.
 9. Navegação para o próximo/anterior projeto + CTA.
+
+### 5.1 Projeto de extensão — o que já se sabe (2026-09-26)
+
+Fonte: `RESPOSTAS-CLIENTE.md`.
+
+| Item | Situação |
+| --- | --- |
+| Instituição | UNIFACIG |
+| Nome do projeto de extensão | **[A CONFIRMAR]** — não informado |
+| Orientação (crédito) | Lidiane Espindula — **grafia e forma de crédito [A CONFIRMAR]** |
+| Casas | 1 |
+| Material disponível | Nenhum ainda (sem render, planta ou foto do antes) |
+| Autorização das famílias | Sim, por mensagem — **registro por escrito [A CONFIRMAR]** |
+
+**Consequências para o planejamento:**
+- O projeto **só entra na v1 se o material chegar antes do lançamento**. Sem material, a página não é criada (não usar imagem genérica no lugar).
+- A ficha técnica (§5, item 5) precisa de um campo para **instituição e orientação**. Isso já estava previsto para acadêmicos ("disciplina/professor").
+- O modelo atual (`type: academico | interiores`) não tem uma categoria para extensão. **Decisão em aberto (D-12):** tratar como `academico` + `status: real`, ou criar um tipo `extensao`.
+- A pergunta sobre "foto do antes" indica um possível bloco **antes/depois**. Não está no escopo atual; entra só com aprovação (D-13).
 
 ---
 
@@ -243,6 +264,8 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | D-09 | Domínio registrado e titular | G1 |
 | D-10 | Analytics + aviso de cookies (LGPD) | G4 |
 | D-11 | Estilização: CSS Modules ou Tailwind | Interna (F3) |
+| D-12 | Projeto de extensão: tipo `academico` (real) ou tipo novo `extensao` | Interna + cliente |
+| D-13 | Incluir bloco antes/depois na página de projeto | Cliente (depende de existir foto do antes) |
 
 ---
 
@@ -255,4 +278,6 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | Renders muito pesados | Site lento, SEO ruim | `next/image`, compressão, tamanhos responsivos |
 | Imitar a referência sem ter a mesma trajetória | Soa genérico/forçado | Usar só as seções que tenham material real (§2.2) |
 | Projetos de clientes sem autorização | Problema ético/legal | Confirmar permissão **[D5]** |
+| Projeto de extensão sem material no lançamento | Projeto anunciado mas sem página | Só publicar quando houver render/planta/foto; não depender dele para lançar |
+| Autorização das famílias só verbal | Exposição de moradia de famílias atendidas (LGPD/imagem) | Pedir autorização por escrito; não mostrar endereço nem rostos sem permissão explícita |
 | Domínio indisponível | Atraso no lançamento | Checar no Registro.br e ter alternativas **[G1]** |
