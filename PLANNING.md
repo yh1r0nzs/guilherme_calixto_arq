@@ -2,7 +2,7 @@
 
 > Fonte de verdade do projeto (ver `AI-GUARDRAIL.md` §13 e §15).
 > Itens marcados **[A CONFIRMAR]** dependem de resposta do cliente e apontam para o ID da pergunta em `PERGUNTAS-CLIENTE.md`.
-> Última atualização: 2026-09-24
+> Última atualização: 2026-09-26 (respostas da rodada 1 em `RESPOSTAS-CLIENTE.md`)
 
 ---
 
@@ -74,7 +74,7 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 - Publicação na Vercel com domínio próprio.
 
 ### 3.2 Fora da v1 (proposta → aprovação antes de incluir)
-- Redesign de marca/logo: **serviço opcional**, depende da proposta **[A CONFIRMAR — B1]**.
+- Redesign de marca/logo: **provavelmente fora**. O cliente prefere usar a logo que já tem (C + A dourado). Confirmar se é a logo do 1º período e receber o arquivo **[A CONFIRMAR — B1]**.
 - CMS para o cliente publicar sozinho **[A CONFIRMAR — E4]**.
 - Versão em inglês **[A CONFIRMAR — H1]**.
 - Depoimentos, newsletter, área de downloads pagos, infoprodutos **[A CONFIRMAR — H2, H3]**.
@@ -132,6 +132,8 @@ location: string
 area: string?               # opcional
 cover: string               # caminho da imagem hero
 gallery: string[]           # renders
+authorship: autoral | render   # render = projeto de terceiro, só visualização 3D [A CONFIRMAR — D2]
+credits: string?            # autor do projeto, quando não for autoral
 drawings: string[]          # plantas/esquemas
 featured: boolean           # aparece na Home
 order: number
@@ -156,8 +158,8 @@ featured: boolean
 ## 7. Direção visual
 
 - **Estilo:** clean, moderno, minimalista e com tipografia forte (briefing §3).
-- **Marca:** o nome do arquiteto em tipografia até a decisão sobre redesign **[B1, B2]**. A logo atual (1º período) **não** será usada.
-- **Cores:** base preto/branco/cinzas; cor de destaque a definir **[A4, A5]**.
+- **Marca:** o cliente quer usar a logo que já tem: monograma **C + A dourado** (resposta B1, 2026-09-26). Avaliar o arquivo junto com a tipografia do nome. Se for a logo do 1º período, apontar ao cliente o que precisa de ajuste antes de usar **[B1, B2]**.
+- **Cores:** base preto/branco/cinzas; o **dourado da logo** é o candidato natural a cor de destaque, com uso pontual **[A4, A5]**.
 - **Tipografia:** uma display forte (caixa-alta, geométrica) + uma de texto legível para artigos longos. Escolha final na F1, sem copiar as fontes da referência.
 - **Imagens:** renders são o conteúdo principal, então a interface deve ficar em segundo plano.
 - **Evitar (AI-GUARDRAIL §6):** excesso de cards, gradientes decorativos, animações sem função, textos placeholder apresentados como finais.
@@ -232,9 +234,9 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 
 | # | Decisão | Pergunta |
 | --- | --- | --- |
-| D-01 | O que agradou na referência | A1, A2 |
-| D-02 | Paleta e cor de destaque | A4, A5 |
-| D-03 | Redesign de logo na proposta | B1 |
+| D-01 | O que agradou na referência — **parcial:** gostou da estrutura geral (item 4) | A1, A2 |
+| D-02 | Paleta e cor de destaque — dourado da logo como candidato | A4, A5 |
+| D-03 | Redesign de logo — **cliente prefere a logo C + A que já tem**; falta o arquivo e confirmar se é a do 1º período | B1 |
 | D-04 | Assinatura/nome da marca | B2 |
 | D-05 | Artigos: página própria ou destaque na Home | E1 |
 | D-06 | Formato do TCC (PDF completo / resumo) | E3 |
@@ -243,6 +245,7 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | D-09 | Domínio registrado e titular | G1 |
 | D-10 | Analytics + aviso de cookies (LGPD) | G4 |
 | D-11 | Estilização: CSS Modules ou Tailwind | Interna (F3) |
+| D-12 | Renders "terceirizados": o que são, crédito ao autor e autorização | D2, D5 |
 
 ---
 
@@ -255,4 +258,5 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | Renders muito pesados | Site lento, SEO ruim | `next/image`, compressão, tamanhos responsivos |
 | Imitar a referência sem ter a mesma trajetória | Soa genérico/forçado | Usar só as seções que tenham material real (§2.2) |
 | Projetos de clientes sem autorização | Problema ético/legal | Confirmar permissão **[D5]** |
+| Renders de projetos de terceiros sem crédito | Parecer que o projeto é do Guilherme; problema ético/legal | Campo `credits` e selo "Visualização 3D" na página **[D-12]** |
 | Domínio indisponível | Atraso no lançamento | Checar no Registro.br e ter alternativas **[G1]** |

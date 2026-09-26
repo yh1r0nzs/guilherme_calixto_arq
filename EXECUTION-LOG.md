@@ -38,3 +38,29 @@
 ### Pendências
 
 - Respostas do cliente (fase F0).
+
+---
+
+## 2026-09-26 — Descoberta (F0) — respostas da rodada 1
+
+**IA/Agente:** Claude (Claude Code)  
+**Etapa executada:** Registro das respostas do cliente e atualização do planejamento
+
+**Arquivos alterados:**
+
+- `RESPOSTAS-CLIENTE.md` (novo)
+- `PLANNING.md`
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+
+**O que foi feito:**
+
+- Registradas as respostas A1 (parcial), B1 e D2 (parcial).
+- Atualizadas no `PLANNING.md` a marca, a cor de destaque e o modelo de conteúdo de projeto, além das decisões D-01 a D-03. Criada a D-12 (renders de terceiros).
+- Listadas as dúvidas geradas pelas respostas.
+
+**Data/hora:** 2026-09-26
+
+### Pendências
+
+- Arquivo da logo; significado de "terceirizado"; E1 e F1 sem resposta.

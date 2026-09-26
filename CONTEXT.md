@@ -1,39 +1,37 @@
 # CONTEXT — Estado atual do projeto
 
-> Última atualização: 2026-09-24
+> Última atualização: 2026-09-26
 
 ## CONTEXTO ATUALIZADO
 
 ### Concluído
 
-- Leitura do `briefing.md` e do `AI-GUARDRAIL.md`.
-- Análise do site de referência (arquitetojoaogabriel.com): estrutura da Home, página de projeto, tipografia e plataforma (Wix).
-- `PLANNING.md` criado: escopo, mapa do site, modelo de conteúdo, direção visual, stack, fases (F0–F7), dependências, decisões em aberto e riscos.
-- `PERGUNTAS-CLIENTE.md` criado: 35 perguntas em 8 grupos (A–H), com as essenciais marcadas com ★.
+- Planejamento inicial (`PLANNING.md`) e questionário (`PERGUNTAS-CLIENTE.md`) — 2026-09-24.
+- Rodada 1 de respostas do cliente registrada em `RESPOSTAS-CLIENTE.md` — 2026-09-26.
 
 ### Decisões
 
-- Stack: **Next.js (App Router) + TypeScript**, hospedagem na Vercel (decisão do responsável).
+- Stack: **Next.js (App Router) + TypeScript**, hospedagem na Vercel.
 - Conteúdo da v1 em MDX no repositório; CMS só se o cliente quiser publicar sozinho (E4).
-- As perguntas ao cliente ficam em um arquivo separado (`PERGUNTAS-CLIENTE.md`).
-- Não copiar da referência as seções que dependem de trajetória que o cliente não informou (time, mídia impressa, selos, infoprodutos).
+- Não copiar da referência as seções sem material real (time, mídia impressa, selos, infoprodutos).
+- **Novo:** a estrutura geral da referência agradou (A1, item 4). A ordem de seções do `PLANNING.md` §4.1 segue válida.
+- **Novo:** o cliente quer usar a logo que já tem (C + A dourado) em vez de um redesign (B1).
 
 ### Alterações
 
-- Nenhuma alteração de escopo em relação ao briefing.
-- Divergência registrada: o briefing diz que a referência tem "blog/recursos técnicos", mas ela tem **infoprodutos**, não blog. O hub de artigos/TCC será um desenho próprio.
+- `PLANNING.md`: marca, cor de destaque (dourado), campos `authorship`/`credits` no modelo de projeto, decisões D-01/D-02/D-03 atualizadas, nova D-12 e novo risco (crédito de renders de terceiros).
 
 ### Pendências
 
-- Enviar o `PERGUNTAS-CLIENTE.md` ao cliente e receber as respostas (fase F0).
-- Receber os materiais: renders, plantas, textos, foto e artigos/TCC.
-- Confirmar o registro do domínio `guilhermecalixtoarq.com.br`.
-- Decidir entre CSS Modules e Tailwind (interno, na F3).
+- Receber o arquivo da logo e confirmar se é a do 1º período.
+- Esclarecer o que são os renders "terceirizados" (D-12).
+- Perguntas ★ sem resposta: B2, C1, C2, D1, D3, D5, E1, E2, E4, F1, G1.
+- Receber os materiais: renders, plantas (se houver), textos, foto e artigos/TCC.
 
 ### Problemas
 
-- Nenhum bloqueio técnico. A execução depende das respostas do cliente.
+- A resposta sobre a logo contradiz o briefing, que chama a logo do 1º período de desatualizada. Precisa ser esclarecido antes da F1.
 
 ### Próximo passo
 
-- Enviar o questionário ao Guilherme. Com as respostas, atualizar o `PLANNING.md` (fechar as decisões D-01 a D-10) e iniciar a F1 (Identidade).
+- Enviar ao cliente as dúvidas da rodada 1 (`RESPOSTAS-CLIENTE.md`) junto com E1 e F1, que continuam sem resposta.
