@@ -30,7 +30,7 @@
 - Arquivo da logo; se é a do 1º período.
 - Artigos prontos (E2) — se não houver, a seção fica fora da v1.
 - Autorização dos autores dos projetos renderizados (D5).
-- Rodada de design: `PERGUNTAS-DESIGN.md` (A2–A5, B1, B2, C5).
+- Rodada de design: `PERGUNTAS-DESIGN.md` + página visual `design/visual-do-site.html` (A2–A5, B1, B2, C5). Aguardando respostas.
 - Adiado: detalhes da extensão social e autorização das famílias (D-14).
 - C1, D1 (lista de projetos), D3, links das redes, G1.
 
@@ -40,4 +40,4 @@
 
 ### Próximo passo
 
-- Enviar `PERGUNTAS-DESIGN.md` ao cliente. Com as respostas e o arquivo da logo, montar a proposta de identidade (F1). Depois, retomar as pendências de conteúdo.
+- Compartilhar a página visual com o cliente e receber as respostas. Com as respostas e o arquivo da logo, montar a proposta de identidade (F1). Depois, retomar as pendências de conteúdo.

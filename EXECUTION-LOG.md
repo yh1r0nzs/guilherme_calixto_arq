@@ -129,3 +129,33 @@
 - Criado o questionário de design (9 perguntas).
 
 **Data/hora:** 2026-09-26
+
+---
+
+## 2026-09-26 — Identidade (F1) — página visual de perguntas de design
+
+**IA/Agente:** Claude (Claude Code)  
+**Etapa executada:** Versão visual do questionário de design
+
+**Arquivos alterados:**
+
+- `design/visual-do-site.html` (novo)
+- `PERGUNTAS-DESIGN.md`
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+
+**O que foi feito:**
+
+- Página com as 9 perguntas de design e esboços de cada opção: fundo, uso do dourado, tipografia (Syncopate, Cormorant Garamond, Jost), assinatura com a logo provisória "CA", layout das imagens.
+- Respostas montadas em texto para copiar e colar no WhatsApp; rascunho salvo no navegador de quem responde.
+- Publicada como Artifact privado: https://claude.ai/artifact/4CEHabM8vnfTCEnnViJGDG
+
+**Data/hora:** 2026-09-26
+
+### Validação
+
+- Conferida uma captura em 1100px; sem rolagem horizontal em 1100px e 390px.
+
+### Observação
+
+- O arquivo é um fragmento HTML (sem `<!doctype>`), formato exigido pela publicação como Artifact. Abre normalmente no navegador.
