@@ -2,7 +2,7 @@
 
 > Fonte de verdade do projeto (ver `AI-GUARDRAIL.md` §13 e §15).
 > Itens marcados **[A CONFIRMAR]** dependem de resposta do cliente e apontam para o ID da pergunta em `PERGUNTAS-CLIENTE.md`.
-> Última atualização: 2026-09-26 (respostas das rodadas 1 e 2 em `RESPOSTAS-CLIENTE.md`)
+> Última atualização: 2026-09-26 (respostas das rodadas 1 a 3 em `RESPOSTAS-CLIENTE.md`)
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Item | Definição |
 | --- | --- |
-| Cliente | Guilherme Calixto, estudante de arquitetura (ainda sem registro no CAU) |
+| Cliente | Guilherme Calixto, estudante de Arquitetura e Urbanismo em Manhuaçu (MG), indo para o 7º período; sem registro no CAU |
 | Contato | cgarquitetura27@gmail.com · (32) 98454-2644 |
 | Domínio pretendido | `guilhermecalixtoarq.com.br` (consulta/registro no Registro.br) **[A CONFIRMAR — G1]** |
 | Prazo | Sem prazo definido no briefing |
@@ -134,6 +134,8 @@ area: string?               # opcional
 cover: string               # caminho da imagem hero
 gallery: string[]           # renders
 section: autoral | render   # autoral → /projetos; render → /renders (rodada 2)
+category: extensao | academico | interiores?   # extensão = projeto social de reforma (rodada 3)
+supervisor: string?         # professor orientador (projetos de extensão/acadêmicos)
 projectAuthor: string?      # obrigatório quando section = render ("Projeto autoral de: X")
 # render sempre creditado como "Render: Guilherme Calixto"
 drawings: string[]          # plantas/esquemas
@@ -251,6 +253,7 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | D-11 | Estilização: CSS Modules ou Tailwind | Interna (F3) |
 | D-12 | Renders para terceiros — **formato fechado** (seção própria, "Projeto: X · Render: GC"); falta a autorização de cada autor | D5 |
 | D-13 | Descritor da assinatura ("projetista", "visualização 3D"…) sem usar "arquiteto" | B2 |
+| D-14 | Projeto de extensão social: nome, orientador, casas incluídas e o que mostrar das famílias | C6, D5 |
 
 ---
 
@@ -264,5 +267,6 @@ Sem datas: o briefing não define prazo. As fases são sequenciais e cada uma s�
 | Imitar a referência sem ter a mesma trajetória | Soa genérico/forçado | Usar só as seções que tenham material real (§2.2) |
 | Projetos de clientes sem autorização | Problema ético/legal | Confirmar permissão **[D5]** |
 | Renders de projetos de terceiros sem crédito | Parecer que o projeto é do Guilherme; problema ético/legal | Seção separada + campo `projectAuthor` obrigatório + autorização do autor **[D-12, D5]** |
+| Exposição das famílias da extensão social | Privacidade (LGPD) e constrangimento | Não mostrar nome, endereço nem rosto; só com autorização por escrito **[D-14]** |
 | Uso de "arquiteto"/"arquitetura" sem registro no CAU | Exercício ilegal da profissão (Lei 12.378/2010); problema com o CAU | Assinatura sem "arquiteto"; revisar o "arq" do domínio e o "A" da logo com o cliente **[B2, G1]** |
 | Domínio indisponível | Atraso no lançamento | Checar no Registro.br e ter alternativas **[G1]** |

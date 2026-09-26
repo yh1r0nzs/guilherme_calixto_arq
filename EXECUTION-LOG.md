@@ -85,3 +85,24 @@
 - `PLANNING.md`: nova seção `/renders`, Home com o Sobre em destaque, campos `section`/`projectAuthor`, D-06/D-08/D-12 fechadas, D-13 criada, risco de uso de "arquiteto" sem CAU.
 
 **Data/hora:** 2026-09-26
+
+---
+
+## 2026-09-26 — Descoberta (F0) — respostas da rodada 3
+
+**IA/Agente:** Claude (Claude Code)  
+**Etapa executada:** Registro das respostas do cliente e atualização do planejamento
+
+**Arquivos alterados:**
+
+- `RESPOSTAS-CLIENTE.md`
+- `PLANNING.md`
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+
+**O que foi feito:**
+
+- Registradas formação (Manhuaçu, indo para o 7º período) e o projeto de extensão social.
+- `PLANNING.md`: perfil do cliente, campos `category`/`supervisor`, nova D-14 e risco de exposição das famílias.
+
+**Data/hora:** 2026-09-26

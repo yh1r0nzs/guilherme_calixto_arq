@@ -73,3 +73,27 @@ Sem registro no CAU, ele não pode se apresentar como arquiteto (Lei 12.378/2010
 - Lista de projetos da v1 (D1) e destaques (D3).
 - Links do Instagram e do LinkedIn (F4).
 - Domínio registrado (G1).
+
+---
+
+## Rodada 3 — 2026-09-26
+
+### Respostas recebidas
+
+| Pergunta | Resposta do cliente | Status |
+| --- | --- | --- |
+| **C2** — Formação | Estuda em Manhuaçu (MG), indo para o 7º período | Parcial: falta o nome da faculdade |
+| **C4** — Onde atua | Estuda em Manhuaçu | Parcial: falta confirmar a região que atende (o WhatsApp é DDD 32) |
+| **C6** — Destaques | Está desenvolvendo um **projeto de extensão social**: pega a casa de uma pessoa e faz o projeto de reforma | Respondida; faltam detalhes |
+
+### Consequências no planejamento
+
+- A extensão social é o destaque mais forte do perfil: entra no **Sobre** e como projeto na seção **Projetos autorais**, com selo "Extensão".
+- Como o site não vai dizer "arquiteto", a apresentação fica "estudante de Arquitetura e Urbanismo (7º período)", o que é correto e reforça a autoria.
+
+### Dúvidas geradas
+
+1. Qual é o nome da faculdade e o nome do projeto de extensão? Quem é o professor orientador? (Crédito na página.)
+2. Quantas casas já foram feitas ou estão em andamento? Já há renders ou plantas prontos?
+3. As famílias autorizam mostrar a casa (fotos do antes, endereço, nome)? Por padrão, o site **não** mostra nome, endereço nem rosto dos moradores.
+4. Ele atende só em Manhuaçu ou em toda a região?
