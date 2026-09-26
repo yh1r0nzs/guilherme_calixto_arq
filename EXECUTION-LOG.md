@@ -109,3 +109,36 @@
 ### Pendências
 
 - Escolha do fundo e resposta da A5; aprovação da tipografia.
+
+---
+
+## 2026-09-26 — F1: opções de fundo refeitas na estrutura da referência
+
+**IA/Agente:** Claude (Claude Code)  
+**Modelo:** Opus 5.5 (`claude-opus-5-5`)  
+**Etapa executada:** F1 — Identidade (revisão)
+
+**Arquivos alterados:**
+
+- `PLANNING.md` (§4.1 e §7.1)
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+- Canvas https://claude.ai/artifact/ATyxnNcovmBBY1XWuahBp8 (3 artboards refeitos)
+
+**O que foi feito:**
+
+- O responsável apontou que as opções não seguiam a estrutura do site do João Gabriel.
+- Feita uma captura da página inteira da referência para conferir a composição real.
+- Refeitas as 3 opções com a mesma ordem e composição: abertura sem menu (nome + 2 cards grandes + 5 cards pequenos + foto recortada), grade 3×2 de projetos, destaques, sobre com retrato, time e contato.
+- A opção C passou a ser "Alternado", com um fundo por seção, como na referência.
+
+**Data/hora:** 2026-09-26
+
+### Validação
+
+- Destaques e Time aparecem marcados como opcionais, sem conteúdo inventado.
+- Único dado real usado: UNIFACIG (formação e projeto de extensão).
+
+### Pendências
+
+- Decidir se Destaques e Time ficam; escolha do fundo; A5.

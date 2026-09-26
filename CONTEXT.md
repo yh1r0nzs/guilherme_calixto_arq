@@ -11,7 +11,7 @@
 - `PLANNING.md` criado: escopo, mapa do site, modelo de conteúdo, direção visual, stack, fases (F0–F7), dependências, decisões em aberto e riscos.
 - `PERGUNTAS-CLIENTE.md` criado: 35 perguntas em 8 grupos (A–H), com as essenciais marcadas com ★.
 - Recebidas as respostas sobre o projeto de extensão (2026-09-26) e registradas em `RESPOSTAS-CLIENTE.md`.
-- Montadas 3 opções de fundo da Home (claro, escuro, misto) para o cliente escolher: https://claude.ai/artifact/ATyxnNcovmBBY1XWuahBp8
+- Montadas 3 opções de fundo da Home (claro, escuro, alternado), refeitas para seguir a estrutura da referência, para o cliente escolher: https://claude.ai/artifact/ATyxnNcovmBBY1XWuahBp8
 
 ### Decisões
 
@@ -43,6 +43,7 @@
 - Confirmar o registro do domínio `guilhermecalixtoarq.com.br`.
 - Decidir entre CSS Modules e Tailwind (interno, na F3).
 - Cliente escolher o fundo (A, B ou C) — fecha D-02 junto com A5 (cor de destaque).
+- Decidir se as seções Destaques e Time ficam (hoje aparecem como opcionais, sem material).
 - Aprovar a tipografia (Archivo está nas opções só como proposta).
 - Decidir D-12 (tipo do projeto de extensão) e D-13 (bloco antes/depois).
 

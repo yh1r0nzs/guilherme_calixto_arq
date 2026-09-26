@@ -96,14 +96,18 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 /contato              Contato (ou só seção no rodapé)              [A CONFIRMAR — F1]
 ```
 
-### 4.1 Home — ordem proposta dos blocos
-1. **Abertura:** nome em tipografia forte + frase de posicionamento **[C1]** + redes sociais **[F4]**.
-2. **Projetos em destaque:** 2 a 3 projetos em blocos grandes **[D3]**.
-3. **Conteúdo acadêmico:** artigos/TCC em destaque **[E1]**.
-4. **Sobre (resumo):** foto + texto curto + link para /sobre **[C5]**.
-5. **Contato:** CTA principal **[F1]** + WhatsApp/e-mail **[F3]**.
+### 4.1 Home — ordem dos blocos (espelha a referência, D-01)
 
-> A ordem 2 e 3 depende de qual público é prioridade (F1).
+Revisado em 2026-09-26: o cliente quer **toda a estrutura** da referência. A Home segue a mesma ordem e composição:
+
+1. **Abertura** (sem menu no topo): nome em caixa-alta + frase curta **[C1]** + redes **[F4]**; **2 cards grandes** com foto e chamada **[F1, F2]**; **linha de 5 cards pequenos** → artigos/TCC **[E1, E2]**; **foto grande do Guilherme recortada à direita** **[C5]**.
+2. **Projetos:** grade de 3 colunas × 2 linhas, card com imagem e legenda **[D1]**.
+3. **Destaques** (na referência, "Destaques impressos"): **opcional** — só entra com material real **[C6]**.
+4. **Sobre:** texto com pontos em negrito à esquerda + retrato à direita **[C1, C2, C5]**.
+5. **Time:** **opcional** — só se houver equipe.
+6. **Contato:** e-mail, WhatsApp e Instagram **[F3, F4]**.
+
+Cada seção tem um fundo próprio na referência (cinza, grafite, preto, cinza-claro, cinza-médio).
 
 ---
 
@@ -186,15 +190,16 @@ featured: boolean
 
 ### 7.1 Opções de fundo (D-02) — 2026-09-26
 
-Três versões da Home, com a mesma estrutura e o mesmo conteúdo provisório, para o cliente escolher:
+Três versões da Home, todas com a estrutura da referência (§4.1) e o mesmo conteúdo provisório, para o cliente escolher:
 
 | Opção | Descrição |
 | --- | --- |
-| A — Claro | Fundo off-white `#F5F3EF`, texto `#141414` |
-| B — Escuro | Fundo `#111111`, texto `#F2F0EC` |
-| C — Misto | Base clara; abertura e contato em faixa escura |
+| A — Claro | Todas as seções em tons claros (off-white e bege-acinzentado) |
+| B — Escuro | Todas as seções em tons de preto e grafite |
+| C — Alternado | Um fundo por seção, como na referência: cinza, grafite, preto, cinza-claro, cinza-médio |
 
-- Tipografia usada nas opções (**provisória**, ainda não aprovada): Archivo, em largura expandida e peso 800 nos títulos e na assinatura.
+- Tipografia usada nas opções (**provisória**, ainda não aprovada): Archivo, peso 800, caixa-alta nos títulos.
+- A primeira versão (2026-09-26) tinha menu no topo e nome gigante; foi descartada por não seguir a estrutura da referência.
 - Nenhuma cor de destaque foi usada; A5 segue aberta.
 - Todo o conteúdo entre colchetes é provisório e aponta para a pergunta que o preenche.
 - Link das opções: https://claude.ai/artifact/ATyxnNcovmBBY1XWuahBp8
