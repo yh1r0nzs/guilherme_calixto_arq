@@ -23,6 +23,7 @@
 - D-01: o cliente gostou de toda a estrutura da referência (seções sem material real continuam de fora).
 - D-03: sem logo nova; marca = nome em tipografia.
 - D-04: assinatura "Guilherme Calixto".
+- Seção Time removida da Home: o Guilherme não tem equipe.
 
 ### Alterações
 
@@ -43,7 +44,8 @@
 - Confirmar o registro do domínio `guilhermecalixtoarq.com.br`.
 - Decidir entre CSS Modules e Tailwind (interno, na F3).
 - Cliente escolher o fundo (A, B ou C) — fecha D-02 junto com A5 (cor de destaque).
-- Decidir se as seções Destaques e Time ficam (hoje aparecem como opcionais, sem material).
+- Decidir se a seção Destaques fica na Home sem material (hoje aparece como opcional).
+- Tirar a seção Time do canvas de opções de fundo (ainda aparece lá).
 - Aprovar a tipografia (Archivo está nas opções só como proposta).
 - Decidir D-12 (tipo do projeto de extensão) e D-13 (bloco antes/depois).
 

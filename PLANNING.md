@@ -56,7 +56,8 @@ A navegação e os CTAs precisam atender aos dois sem misturar as mensagens. A p
 | **Adaptar** | Linha de “infoprodutos” → **destaques de artigos/TCC** | Guilherme não vende infoprodutos; o conteúdo dele é acadêmico **[A CONFIRMAR — E1, F2]** |
 | **Adaptar** | Página de projeto → incluir **plantas/esquemas e ficha técnica** | Pedido do briefing (§5) e relevante para público técnico |
 | **Adaptar** | Paleta: referência usa cinzas/cores por projeto → base P&B clean | Briefing pede clean/minimalista **[A CONFIRMAR — A4, A5]** |
-| **Não copiar** | “Time”, “Destaques impressos”, selos (Forbes, Casa Vogue) | Dependem de trajetória que não está no briefing; só entram com material real **[A CONFIRMAR — C6]** |
+| **Não copiar** | “Time” | O Guilherme não tem equipe (confirmado em 2026-09-26) |
+| **Adaptar** | “Destaques impressos”, selos (Forbes, Casa Vogue) → “Destaques” | Só entra com material real **[A CONFIRMAR — C6]** |
 | **Não copiar** | Blog | **A referência não tem blog.** O hub de artigos será desenho próprio |
 
 > **Divergência com o briefing:** o briefing descreve a referência como tendo “blog/recursos técnicos”. Na verdade, a área de conteúdo dela é de infoprodutos (links de venda). A seção de artigos/TCC do Guilherme **não tem modelo direto na referência**.
@@ -104,8 +105,9 @@ Revisado em 2026-09-26: o cliente quer **toda a estrutura** da referência. A Ho
 2. **Projetos:** grade de 3 colunas × 2 linhas, card com imagem e legenda **[D1]**.
 3. **Destaques** (na referência, "Destaques impressos"): **opcional** — só entra com material real **[C6]**.
 4. **Sobre:** texto com pontos em negrito à esquerda + retrato à direita **[C1, C2, C5]**.
-5. **Time:** **opcional** — só se houver equipe.
-6. **Contato:** e-mail, WhatsApp e Instagram **[F3, F4]**.
+5. **Contato:** e-mail, WhatsApp e Instagram **[F3, F4]**.
+
+**Time: removido** (2026-09-26) — o Guilherme não tem equipe. É a única seção da referência que fica de fora.
 
 Cada seção tem um fundo próprio na referência (cinza, grafite, preto, cinza-claro, cinza-médio).
 
@@ -196,7 +198,7 @@ Três versões da Home, todas com a estrutura da referência (§4.1) e o mesmo c
 | --- | --- |
 | A — Claro | Todas as seções em tons claros (off-white e bege-acinzentado) |
 | B — Escuro | Todas as seções em tons de preto e grafite |
-| C — Alternado | Um fundo por seção, como na referência: cinza, grafite, preto, cinza-claro, cinza-médio |
+| C — Alternado | Um fundo por seção, como na referência: cinza, grafite, preto, cinza-claro |
 
 - Tipografia usada nas opções (**provisória**, ainda não aprovada): Archivo, peso 800, caixa-alta nos títulos.
 - A primeira versão (2026-09-26) tinha menu no topo e nome gigante; foi descartada por não seguir a estrutura da referência.

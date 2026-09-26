@@ -142,3 +142,28 @@
 ### Pendências
 
 - Decidir se Destaques e Time ficam; escolha do fundo; A5.
+
+---
+
+## 2026-09-26 — Seção Time removida
+
+**IA/Agente:** Claude (Claude Code)  
+**Modelo:** Opus 5.5 (`claude-opus-5-5`)  
+**Etapa executada:** F1 — Identidade (ajuste de estrutura)
+
+**Arquivos alterados:**
+
+- `PLANNING.md` (§2.2 e §4.1)
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+
+**O que foi feito:**
+
+- Registrado, por decisão do responsável, que o Guilherme não tem equipe: a seção Time sai da Home.
+- Na §2.2, "Time" separado de "Destaques impressos"; Destaques segue condicionado a material real (C6).
+
+**Data/hora:** 2026-09-26
+
+### Pendências
+
+- O canvas de opções de fundo ainda mostra a seção Time.
