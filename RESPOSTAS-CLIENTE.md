@@ -97,3 +97,23 @@ Sem registro no CAU, ele não pode se apresentar como arquiteto (Lei 12.378/2010
 2. Quantas casas já foram feitas ou estão em andamento? Já há renders ou plantas prontos?
 3. As famílias autorizam mostrar a casa (fotos do antes, endereço, nome)? Por padrão, o site **não** mostra nome, endereço nem rosto dos moradores.
 4. Ele atende só em Manhuaçu ou em toda a região?
+
+---
+
+## Rodada 4 — 2026-09-26
+
+### Respostas recebidas
+
+| Pergunta | Resposta do cliente | Status |
+| --- | --- | --- |
+| **C2** — Faculdade | UNIFACIG (Manhuaçu, MG) | Respondida |
+| **C4** — Onde atua | Toda a região, principalmente o **Caparaó** | Respondida |
+| **D1** — Projetos | Tem mais projetos, tanto autorais quanto de render para terceiros | Parcial: falta a lista |
+
+### Adiado pelo responsável
+
+- Detalhes do projeto de extensão (nome, orientador, casas incluídas, material pronto) e autorização das famílias. Voltar a isso depois da rodada de design.
+
+### Próxima rodada
+
+- Perguntas de design em `PERGUNTAS-DESIGN.md`. Depois, retomar as pendências de conteúdo.

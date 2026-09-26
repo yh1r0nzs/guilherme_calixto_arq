@@ -2,7 +2,7 @@
 
 > Fonte de verdade do projeto (ver `AI-GUARDRAIL.md` §13 e §15).
 > Itens marcados **[A CONFIRMAR]** dependem de resposta do cliente e apontam para o ID da pergunta em `PERGUNTAS-CLIENTE.md`.
-> Última atualização: 2026-09-26 (respostas das rodadas 1 a 3 em `RESPOSTAS-CLIENTE.md`)
+> Última atualização: 2026-09-26 (respostas das rodadas 1 a 4 em `RESPOSTAS-CLIENTE.md`)
 
 ---
 
@@ -10,7 +10,8 @@
 
 | Item | Definição |
 | --- | --- |
-| Cliente | Guilherme Calixto, estudante de Arquitetura e Urbanismo em Manhuaçu (MG), indo para o 7º período; sem registro no CAU |
+| Cliente | Guilherme Calixto, estudante de Arquitetura e Urbanismo na UNIFACIG (Manhuaçu, MG), indo para o 7º período; sem registro no CAU |
+| Área de atuação | Toda a região, principalmente o Caparaó (SEO local) |
 | Contato | cgarquitetura27@gmail.com · (32) 98454-2644 |
 | Domínio pretendido | `guilhermecalixtoarq.com.br` (consulta/registro no Registro.br) **[A CONFIRMAR — G1]** |
 | Prazo | Sem prazo definido no briefing |

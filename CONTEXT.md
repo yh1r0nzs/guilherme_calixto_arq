@@ -17,6 +17,7 @@
 - Logo: o cliente quer usar a que já tem, C + A dourado (B1).
 - **Rodada 2:** duas seções de trabalho, Projetos autorais e Renders para terceiros ("Projeto: X · Render: Guilherme Calixto").
 - **Rodada 2:** ação principal = conhecer o Guilherme; o Sobre vem logo após a abertura na Home. Contato por Instagram, WhatsApp, e-mail e talvez LinkedIn.
+- **Rodada 4:** UNIFACIG; atua em toda a região, principalmente no Caparaó. Tem mais projetos autorais e de render.
 - **Rodada 3:** estudante em Manhuaçu, indo para o 7º período. O projeto de extensão social (reforma de casas) entra no Sobre e em Projetos autorais.
 - **Rodada 2:** assinatura "Guilherme Calixto" + descritor sem "arquiteto" (ex.: projetista, 3D). TCC fora da v1.
 
@@ -29,8 +30,9 @@
 - Arquivo da logo; se é a do 1º período.
 - Artigos prontos (E2) — se não houver, a seção fica fora da v1.
 - Autorização dos autores dos projetos renderizados (D5).
-- Extensão social: nome, orientador, número de casas, material pronto e autorização das famílias (D-14).
-- Nome da faculdade (C2), região atendida (C4), C1, D1, D3, links das redes, G1.
+- Rodada de design: `PERGUNTAS-DESIGN.md` (A2–A5, B1, B2, C5).
+- Adiado: detalhes da extensão social e autorização das famílias (D-14).
+- C1, D1 (lista de projetos), D3, links das redes, G1.
 
 ### Problemas
 
@@ -38,4 +40,4 @@
 
 ### Próximo passo
 
-- Enviar ao cliente as perguntas pendentes da rodada 2 (`RESPOSTAS-CLIENTE.md`). Com D1, C1–C4 e o arquivo da logo, iniciar a F1 (Identidade).
+- Enviar `PERGUNTAS-DESIGN.md` ao cliente. Com as respostas e o arquivo da logo, montar a proposta de identidade (F1). Depois, retomar as pendências de conteúdo.

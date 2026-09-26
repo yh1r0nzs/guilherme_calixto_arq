@@ -106,3 +106,26 @@
 - `PLANNING.md`: perfil do cliente, campos `category`/`supervisor`, nova D-14 e risco de exposição das famílias.
 
 **Data/hora:** 2026-09-26
+
+---
+
+## 2026-09-26 — Descoberta (F0) — rodada 4 e perguntas de design
+
+**IA/Agente:** Claude (Claude Code)  
+**Etapa executada:** Registro das respostas e preparação da rodada de design
+
+**Arquivos alterados:**
+
+- `RESPOSTAS-CLIENTE.md`
+- `PERGUNTAS-DESIGN.md` (novo)
+- `PLANNING.md`
+- `CONTEXT.md`
+- `EXECUTION-LOG.md`
+
+**O que foi feito:**
+
+- Registradas faculdade (UNIFACIG), área de atuação (região, principalmente Caparaó) e a existência de mais projetos.
+- Detalhes da extensão social adiados a pedido do responsável.
+- Criado o questionário de design (9 perguntas).
+
+**Data/hora:** 2026-09-26
