@@ -1,28 +1,37 @@
-# PROPOSTA COMERCIAL — MARKET ENTRY
-## Portfólio Digital Premium — Guilherme Calixto  
-### Parceria Estratégica para Entrada no Mercado
+# PROPOSTA COMERCIAL — MARKET ENTRY AGRESSIVO
+## Portfólio Digital Professional — Guilherme Calixto  
+### Parceria de Crescimento (Você + Eu = Ambos Escalamos)
 
 ---
 
 **Data:** 2026-09-28  
 **Válida até:** 2026-11-15  
-**Número da Proposta:** GC-2026-001-MARKET  
-**Cliente:** Guilherme Calixto  
+**Número da Proposta:** GC-2026-001-GROWTH  
+**Cliente:** Guilherme Calixto (UNIFACIG, 7º período)  
 **Contato:** cgarquitetura27@gmail.com | (32) 98454-2644  
-**Desenvolvedor:** Arthur Sampaio (arthur.dev)
+**Desenvolvedor:** Arthur Sampaio  
 
 ---
 
-## 1. Proposta Executiva — A Oportunidade
+## 1. Situação Real — Por Que Essa Proposta
 
-### Situação
-Você precisa de **presença digital profissional** para consolidar autoridade no mercado.  
-Eu estou **lançando minha agência** e preciso de **2–3 cases de excelência** para validar meu posicionamento.
+### Seu Contexto
+✓ Está no 7º período (ainda estudando)  
+✓ Poucos projetos prontos (acadêmicos + interiores)  
+✓ Quer captar clientes (suas redes: estudantes + arquitetos que terceirizam)  
+✓ Orçamento apertado (perguntou "qual seria o valor?")  
+✓ Precisa de presença digital AGORA para começar a faturar
 
-### Solução: Parceria Win-Win
-✅ **Você ganha:** Site premium (valor R$ 5.000+), com implementação de última geração  
-✅ **Eu ganho:** Case de portfolio visível + referência + aprendizado de mercado  
-✅ **Resultado:** Ambos ganham velocidade e credibilidade  
+### Meu Contexto
+✓ Estou entrando no mercado de web (preciso de 2–3 cases fortes)  
+✓ Preciso de portfolio visível + referência verificável  
+✓ Seu site será meu melhor showcase (clean, autoridade, conversão)  
+✓ Preciso mais de você agora que você de mim
+
+### Solução: Win-Win Agressivo
+✅ **Você recebe:** Site profissional + estrutura pronta pra crescer  
+✅ **Eu recebo:** Case visível + network de referência + aprendizado real  
+✅ **Resultado:** Ambos saem mais fortes (vice-versa referências depois)  
 
 ### O Projeto
 Desenvolvimento de um **site de portfólio profissional de nível agência** que funciona como:
@@ -141,158 +150,204 @@ Como é nosso primeiro projeto juntos e eu estou validando meu trabalho no merca
 
 ---
 
-## 4. Modelo de Investimento
+## 4. Investimento — Modelo de Entrada Agressiva
 
-### 💰 Composição de Valor
+### 💰 Composição (Valor Real vs Preço Proposto)
 
-| Componente | Valor Mercado | Incluído? |
-|-----------|-------------|-----------|
-| **Design & UX** (A) | R$ 1.200 | ✅ SIM |
-| **Desenvolvimento** (B) | R$ 2.800 | ✅ SIM |
-| **SEO & Performance** (C) | R$ 900 | ✅ SIM |
-| **Deploy & Infra** (D) | R$ 600 | ✅ SIM |
-| **Documentação & Suporte** (E) | R$ 500 | ✅ SIM |
-| **Bônus Market Entry** | +R$ 1.550 | ✅ GRÁTIS |
+| Serviço | Valor Mercado | Status |
+|--------|-------------|--------|
+| **Design & UX** | R$ 1.200 | ✅ Incluído |
+| **Desenvolvimento** (Next.js, Next.js, MDX) | R$ 1.800 | ✅ Incluído |
+| **SEO & Performance** (Lighthouse 92+) | R$ 600 | ✅ Incluído |
+| **Deploy & Infraestrutura** (Vercel) | R$ 400 | ✅ Incluído |
+| **Documentação & Suporte 30d** | R$ 300 | ✅ Incluído |
 | | | |
-| **Valor Total em Mercado** | — | **R$ 7.550** |
+| **Subtotal (Valor Mercado)** | **R$ 4.300** | — |
+| **Bônus Market Entry** | +R$ 800 | ✅ GRÁTIS |
+| | | |
+| **Valor Total Gerado** | **R$ 5.100** | — |
 
 ---
 
-### 📊 Opções de Pagamento (Escolha Uma)
+### 🎯 PROPOSTA FINAL — 3 Opções
 
-#### **OPÇÃO 1: À Vista (Melhor Desconto)**
+#### **OPÇÃO 1: À Vista (Você Economiza)**
 ```
-Desconto: –15% (mercado + bônus)
-Total: R$ 6.417
-Pagamento: Entrada única
-Vantagem: Você economiza R$ 1.133 + ganha velocidade
-```
-
-#### **OPÇÃO 2: Dividido em 3x (Mais Flexível)** ⭐ RECOMENDADO
-```
-Parcela 1: R$ 2.250 (Kickoff + F1–F2 aprovadas)
-Parcela 2: R$ 2.250 (F3–F5 concluídas)
-Parcela 3: R$ 2.250 (Lançamento + suporte 30 dias)
-
-Total: R$ 6.750
-Margem pequena: apenas 11% sobre valor bruto
+Preço: R$ 2.800
+Economia: 35% de redução no valor de mercado
+Ideal para: Você tá com cash e quer sair "zerado"
 ```
 
-#### **OPÇÃO 3: Divido em 4x (Máxima Flexibilidade)**
+#### **OPÇÃO 2: Entrada + Finalização** ⭐ RECOMENDADO
 ```
-Parcelas: 4x de R$ 1.900
-Total: R$ 7.600
-Margem: apenas 1% sobre valor bruto
+Entrada: R$ 1.400 (Kickoff hoje)
+Finalização: R$ 1.400 (Lançamento + 30 dias suporte)
 
-Condição: Mínimo 50% (R$ 3.800) nos primeiros 45 dias
+Total: R$ 2.800
+Margem pequena: Você paga valor de entrada, eu começo F1 TODAY
+Ideal para: Você respira, eu começo AGORA
+```
+
+#### **OPÇÃO 3: Máxima Flexibilidade (Estendido)**
+```
+Parcela 1: R$ 1.000 (Kickoff + F1–F2)
+Parcela 2: R$ 1.000 (F3–F5)
+Parcela 3: R$ 1.000 (Lançamento + suporte)
+
+Total: R$ 3.000
+Margem: Quase zero (R$ -1.300 em trabalho = investimento meu)
+Ideal para: Fluxo bem apertado, você paga aos poucos
+Condição: Confirmação E 1ª parcela THIS WEEK
 ```
 
 ---
 
-### 🤝 Alternativa: Equity/Barter (Para Fluxo Justo)
+### 🤝 Alternativa: BARTER Total (Se Tá Realmente Quebrado)
 
-Se você estiver com **cash flow apertado**, podemos negociar:
+Se nenhuma opção acima fechar:
 
-| Modelo | Detalhe |
-|--------|---------|
-| **Case Study** | Você autoriza publicação do case no meu portfólio + referência no site (vale R$ 1.500 em marketing) |
-| **Indicações** | Para cada cliente que você indicar que vire projeto, desconto de 10% na próxima fase (ex: CMS, v2) |
-| **Barter Criativo** | Você me apresenta para 3 arquitetos/designers na sua rede; cada apresentação que gera projeto = R$ 300 de crédito |
-
----
-
-### 🎯 PROPOSTA FINAL (Recomendada)
-
-**Valor:** R$ 6.750 (OPÇÃO 2)  
-**Parcelas:** 3x de R$ 2.250  
-**Timeline:** 3 semanas  
-**Bônus:** +R$ 1.550 em serviços grátis  
-**ROI:** Seu site vai gerar leads → referências → mais projetos
-
-**O domínio é responsabilidade sua** (~R$ 40/ano).
+| Modelo | Troca |
+|--------|-------|
+| **Case Study + Indicações** | Autoriza case + me apresenta pra 3 arquitetos/engenheiros = Site gratuito + pagamento por lead gerado (você me indica, eu fecho, você recebe 10% da próxima venda) |
+| **Equity simbólica** | Me dá crédito como "Desenvolvido por Arthur Sampaio" no site + link pro meu portfólio = 50% desconto (R$ 1.400) |
 
 ---
 
-### 💎 Serviços Futuros (Roadmap)
+### 💡 Por Que Esse Preço?
 
-Após lançamento, você pode evoluir o site com:
+**Mercado:** Site profissional portfólio = R$ 3.500–5.000  
+**Sua situação:** Estudante 7º período, poucos projetos, orçamento apertado  
+**Minha situação:** Preciso de case + portfolio + network  
 
-| Serviço | Valor | Quando |
-|---------|-------|--------|
-| **CMS Headless** (Notion/Sanity — você publica sozinho) | R$ 1.200 | 6 meses |
-| **Versão em Inglês** (internacionalização + SEO) | R$ 800 | 6 meses |
-| **Newsletter** (Brevo/ConvertKit + integração) | R$ 400 | 3 meses |
-| **Integração WhatsApp API** (chatbot simples) | R$ 600 | 6 meses |
-| **Manutenção mensal** (atualizações, backups, monitoring) | R$ 250/mês | Sempre |
+**Lógica:**
+```
+Você paga R$ 2.800 (ou menos com barter)
+Eu recebo menos cash (R$ 2.800)
+MAS eu ganho: case visível + seu futuro como referência + network
 
-**Nota:** Clientes que já fizeram a v1 comigo recebem 30% de desconto na v2.0 🚀
+Vocês dois crescem.
+Em 6 meses, quando tiver mais projetos, a v2 você paga R$ 5.000+ sem problema.
+Ambos saem ganhando.
+```
 
 ---
 
-## 5. Por Que Essa Proposta Faz Sentido Para Vocês Dois
+### 🎯 PROPOSTA FINAL RECOMENDADA
 
-### Para Você (Guilherme)
-✅ **Site que vende** — Design premium + SEO = leads qualificados  
-✅ **Estrutura escalável** — Cresce com você (v2 em 6 meses)  
-✅ **Seu próprio código** — Você é dono, pode mudar de agência depois se quiser  
-✅ **Valor = R$ 7.550 por R$ 6.750** — Já vem com bônus inclusos  
-✅ **Suporte realista** — Não é "abandono pós-launch" (30 dias de WhatsApp)  
-✅ **Timing** — Site sai em 3 semanas (micro-empresas usam isso pra captar clientes fast)
+**Escolha OPÇÃO 2 (Ideal para você):**
+
+```
+ENTRADA: R$ 1.400 (hoje, Kickoff)
+FINALIZAÇÃO: R$ 1.400 (2026-10-18, Lançamento)
+
+TOTAL: R$ 2.800
+TIMELINE: 3 semanas
+VALOR GERADO: R$ 5.100
+DIFERENÇA: Você economiza R$ 2.300
+
++ Bônus inclusos (dark mode, analytics, suporte 30d)
+```
+
+**O domínio é seu** (~R$ 40/ano no Registro.br)
+
+---
+
+## 5. Roadmap Futuro (v2, v3...)
+
+Após o lançamento (em 3 semanas), você pode evoluir:
+
+| Fase | Serviço | Valor | Quando |
+|------|---------|-------|--------|
+| **v2** | CMS Headless (você publica sozinho) | R$ 1.000 | 3–4 meses |
+| **v2** | Formulário de orçamento + integração email | R$ 400 | 3 meses |
+| **v3** | Versão em Inglês (SEO internacional) | R$ 600 | 6 meses |
+| **v3** | Integração WhatsApp API (chatbot) | R$ 500 | 6 meses |
+| **Always** | Manutenção mensal (updates, backups) | R$ 150/mês | Opcional |
+
+**Bônus de cliente:** Você recebe **20% de desconto permanente** em qualquer evolução 🎉
+
+---
+
+## 5. Por Que Essa Proposta Funciona
+
+### Para Você
+✅ **Preço justo** — R$ 2.800 (você economiza 35% vs mercado)  
+✅ **Timeline rápida** — 3 semanas (você começa a captar clientes logo)  
+✅ **Seu próprio site** — Você é 100% dono (pode mudar de dev depois)  
+✅ **Estrutura escalável** — Cresce com seus projetos (v2 em 3 meses)  
+✅ **Suporte real** — 30 dias de WhatsApp (não abandono)  
+✅ **Sem risco** — Pode cancelar em F2 (wireframes) sem multa
 
 ### Para Mim (Arthur)
-✅ **Case de portfolio** — Visível, refenciável, monetizável  
-✅ **Validação de processo** — Primeiro projeto "real" do meu novo modelo  
-✅ **Network** — Você conhece gente, vai indicar pra sua rede  
-✅ **Aprendizado** — Mercado de arquitetura é novo pra mim, esse projeto me posiciona  
+✅ **Seu site = meu portfolio** (case visível + referência verificável)  
+✅ **Você vai indicar** (conhece outros arquitetos/engenheiros)  
+✅ **Entrada agressiva** (primeiro case de excelência = credibilidade)  
+✅ **Aprendizado real** (mercado de arquitetura, seu público específico)
 
-### O Resultado
-🎯 Seu site gera clientes → você pode fazer v2 comigo → eu ganho case → ambos crescemos
+### O Ganho Mútuo
+```
+Você paga R$ 2.800 → Seu site online em 3 semanas → Começa a captar clientes
+Eu trabalho por menos → Mas seu site é meu melhor showcase → Você indica pra rede
 
----
-
-## 6. Próximos Passos (Checklist)
-
-- [ ] **Hoje (2026-09-28):** Você lê esta proposta
-- [ ] **Amanhã:** Você manda um WhatsApp confirmando OPÇÃO DE PAGAMENTO (1, 2 ou 3)
-- [ ] **Até 2026-10-01:** Você envia materiais finais (renders, textos, foto)
-- [ ] **2026-10-01:** Assinamos acordo simples (pode ser WhatsApp mesmo)
-- [ ] **2026-10-01:** Você faz a primeira parcela (ou à vista)
-- [ ] **2026-10-07:** Seu site em preview (você vê tudo rodando)
-- [ ] **2026-10-18:** Go live 🚀
+6 meses depois:
+Você tem mais projetos → Evolui pra v2 (CMS) por R$ 800 (eu já preciso de você agora)
+Ambos ganham momentum.
+```
 
 ---
 
-## 7. Garantias & SLA
+## 6. Próximos Passos (Bem Simples)
 
-| Garantia | Promessa |
-|----------|----------|
-| **Satisfação Design** | F2 (wireframes) não gostar? Refazemos grátis 1x, ou cancelamos sem multa |
-| **Performance** | Lighthouse ≥ 92 em todos os audits. Não atingir? Corrigimos grátis |
-| **Responsivo** | Chrome, Firefox, Safari, Edge + iOS + Android. Problema? Fixamos |
-| **Timeline** | 3 semanas ou você recebe desconto de 10% (R$ 675) |
-| **Suporte 30 dias** | Dúvidas = resposta em até 24h (WhatsApp) |
-| **SEO Básico** | Seu site não fica invisível — está estruturado p/ crescer no Google |
+1. **Você lê esta proposta** (5 min)
+2. **Confirma WhatsApp:** "Eu quero a OPÇÃO 2" (entrada R$ 1.400 + final R$ 1.400)
+3. **Envia entrada** (R$ 1.400) — kickoff autorizado
+4. **Entrega materiais até 2026-10-01:** renders, textos, foto, redes sociais
+5. **Eu envio preview em 2026-10-07** — primeiro visto do site
+6. **Você aprova/ajusta (F1–F2)** — 2 dias de revisão
+7. **Eu finalizaço até 2026-10-15** — conteúdo + SEO + testes
+8. **Você paga finalização** (R$ 1.400) — LAUNCH autorizado
+9. **2026-10-18 — GO LIVE 🚀** — seu site ao vivo
+10. **Suporte 30 dias** — dúvidas via WhatsApp (até 2026-11-18)
 
 ---
 
-## 8. Pré-Requisitos & Considerações
+## 7. Garantias (Sem Enrolação)
 
-### Materiais Que Você Precisa Providenciar
-1. **Imagens** (renders, fotos de projetos)
-2. **Textos** (bio, descrição de projetos, credenciais)
-3. **Foto sua** (para a seção Sobre)
-4. **Links sociais** (Instagram, LinkedIn, WhatsApp)
+✅ **Design não agrada?** Refaço 1x grátis em F2, ou cancela sem multa  
+✅ **Performance?** Lighthouse ≥ 92 ou eu corrijo grátis  
+✅ **Responsivo?** Desktop/tablet/mobile — ou fixamos  
+✅ **Suporte?** 30 dias de WhatsApp (dúvidas = 24h resposta)  
+✅ **Timeline?** 3 semanas ou você paga R$ 1.400, não R$ 2.800  
 
-### Considerações Legais
-- ✅ **Você é dono do site 100%** — código, conteúdo, domínio são seus
-- ✅ **GitHub privado** — Seus dados ficam seguros (ou público se quiser)
-- ✅ **Direitos de imagem** — Sua responsabilidade garantir que pode usar cada foto/render
-- ✅ **Sem lock-in** — Você pode pegar o código e levar pra outra agência amanhã (mas não vai querer 😄)
+---
+
+## 8. O Que Você Precisa Fazer
+
+### Entregar Até 2026-10-01
+- Renders de cada projeto (pastas organizadas — você ja tem!)
+- Bio + texto de cada projeto (quem foi cliente? qual era o brief?)
+- Foto sua (pra seção "Sobre")
+- Instagram + LinkedIn (links)
+- Se tiver: textos de artigos / TCC (estrutura é pronta, vai depois)
+
+### Autorizar
+- ✅ Publicar renders dos projetos terceirizados (com crédito do autor)
+- ✅ Publicar foto do projeto de extensão + família autorizada? (você já confirmou sim!)
+- ✅ Usar seu nome/logo no site
 
 ### Domínio
-- **Seu domínio:** `guilhermecalixtoarq.com.br` (você já tem?)
-- **Custo:** ~R$ 40/ano (você paga direto ao registrador)
-- **Setup:** Eu faço o apontamento DNS + SSL (você não mexe em nada)
+- Você registra `Guilhermecalixtoarq.com.br` no Registro.br (~R$ 40/ano)
+- Ou: você já tem? Se tiver, eu aponto
+- Eu faço DNS + SSL (você não mexe em nada)
+
+---
+
+## 9. Propriedade & Direitos
+
+✅ **Você é dono 100%** — código, conteúdo, domínio, tudo  
+✅ **GitHub privado** — Seus dados seguros (ou público se quiser mostrar código)  
+✅ **Sem lock-in** — Você pode sair e levar o código amanhã (mas não vai querer!)  
+✅ **Imagens** — Sua responsabilidade autorização de quem tá nas fotos
 
 ---
 
@@ -309,50 +364,73 @@ Após lançamento, você pode evoluir o site com:
 
 ---
 
-## 10. Decisão
+## 10. Checklist Final (Antes de Confirmar)
 
-### ✅ Você quer prosseguir?
+- [ ] Você leu a proposta completa?
+- [ ] Entendeu a OPÇÃO 2 (R$ 1.400 entrada + R$ 1.400 final)?
+- [ ] Você consegue enviar os materiais até 2026-10-01?
+- [ ] Você consegue pagara entrada (R$ 1.400) essa semana?
+- [ ] Você tá confortável com 3 semanas de timeline?
 
-**Envie um WhatsApp para (sem compromisso no começo):**
-
-> Oi Arthur! Vi a proposta. Quero prosseguir com a **OPÇÃO 2** (3x R$ 2.250).  
-> Meus materiais saem até 2026-10-01. Bora lançar esse site?
-
----
-
-### ❓ Dúvidas?
-
-- **Quer negociar o preço?** Manda proposta (mas R$ 6.750 é o meu piso pra fazer isso bem)
-- **Quer mudar alguma coisa do escopo?** Conversamos, mas lembre que timeline é curta
-- **Quer fazer barter?** Tenho ideias, mas vamos conversar por WhatsApp
-- **Quer ver exemplos de sites meus?** Tá tudo lá no portfólio
+**Tudo OK?** → Manda WhatsApp! ⬇️
 
 ---
 
-## 11. Resumo Executivo (Para você imprimir ou compartilhar)
+## 11. Próxima Ação (AGORA)
+
+**Copie e envie esse WhatsApp:**
 
 ```
-PROPOSTA: Portfólio Digital Premium — Guilherme Calixto
-VALOR: R$ 6.750 (3x R$ 2.250) — Incluso R$ 1.550 em bônus
-BÔNUS: Dark mode, brand guidelines, analytics, suporte 30 dias
-TIMELINE: 3 semanas (2026-10-01 até 2026-10-18)
-GARANTIA: Lighthouse ≥ 92 ou refazemos grátis
-PRÓXIMO: Confirma a opção de pagamento por WhatsApp
+Opa Arthur! Acompanhei a proposta.
 
-Desenvolvedor: Arthur Sampaio (@yh1r0nzs)
-Data: 2026-09-28
-Válida até: 2026-11-15
+Quero prosseguir com a OPÇÃO 2:
+- Entrada: R$ 1.400 (kickoff)
+- Finalização: R$ 1.400 (lançamento)
+
+Meus materiais saem até 2026-10-01.
+
+Bora lançar o site?
 ```
 
 ---
 
-**Perguntas?** 💬 Manda WhatsApp!  
-**Pronto pra começar?** ✅ Confirma a opção de pagamento que você quer!
+**Dúvidas antes de confirmar?**
+- **Preço é negociável?** Não (R$ 2.800 é meu investimento em você)
+- **Pode parcelar em mais vezes?** OPÇÃO 3 = 3x R$ 1.000 (mas confirma essa semana!)
+- **E se eu não tiver R$ 1.400 agora?** BARTER = case + indicações (conversamos!)
+- **Quanto tempo demora mesmo?** 3 semanas (2026-10-01 até 2026-10-18)
+- **E depois, quanto custa manter?** Opcional R$ 150/mês (updates, backups, etc)
 
 ---
 
-**Guilherme Calixto Arquitetura**  
-Proposta Market Entry preparada por Arthur Sampaio  
-Desenvolvedor & Founder — arthur.dev  
-📧 thaissampadv@gmail.com | 💬 WhatsApp disponível
+## 12. Resumo Executivo (Quick Reference)
+
+```
+CLIENTE: Guilherme Calixto (UNIFACIG, 7º período)
+PROJETO: Site portfólio + blog + extensão social
+
+VALOR: R$ 2.800 (você economiza R$ 1.300 vs mercado)
+OPÇÃO: 2 parcelas de R$ 1.400 (entrada + final)
+
+TIMELINE: 3 semanas (01 até 18/10)
+GARANTIAS: Design refazemos, Lighthouse ≥92, suporte 30d
+
+PRÓXIMO: Confirma WhatsApp + envia entrada
+
+Desenvolvedor: Arthur Sampaio
+Data: 2026-09-28 | Válida até: 2026-11-15
+```
+
+---
+
+**Pronto pra começar?** → Manda WhatsApp agora mesmo! 💬
+
+---
+
+**Obrigado pela confiança, Guilherme!**  
+Vamo fazer um site show que te coloque no mercado! 🚀
+
+Arthur Sampaio | Desenvolvedor  
+🌐 https://arthursampaio.vercel.app  
+📧 thaissampadv@gmail.com
 
