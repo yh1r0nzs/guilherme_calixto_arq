@@ -1,0 +1,496 @@
+<title>Visual Guilherme Calixto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Syncopate:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400&display=swap">
+<style>
+  :root {
+    --bg: #f5f5f3;
+    --surface: #ffffff;
+    --ink: #16181a;
+    --muted: #5d6166;
+    --line: #dcdcd7;
+    --gold: #94743f;
+    --gold-soft: #efe6d6;
+    --focus: #94743f;
+    --sel-bg: #fbf7f0;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #131416;
+      --surface: #1b1d20;
+      --ink: #ecebe8;
+      --muted: #a2a5aa;
+      --line: #2e3136;
+      --gold: #c9a96e;
+      --gold-soft: #2c261c;
+      --focus: #c9a96e;
+      --sel-bg: #221f1a;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #131416;
+    --surface: #1b1d20;
+    --ink: #ecebe8;
+    --muted: #a2a5aa;
+    --line: #2e3136;
+    --gold: #c9a96e;
+    --gold-soft: #2c261c;
+    --focus: #c9a96e;
+    --sel-bg: #221f1a;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 16px/1.55 "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding-inline: 16px;
+    padding-block: 40px 96px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; display: grid; gap: 56px; }
+
+  header { display: grid; gap: 14px; max-width: 640px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--gold);
+  }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; font-weight: 700; text-wrap: balance; }
+  header p { margin: 0; color: var(--muted); }
+
+  .q { display: grid; gap: 18px; border-top: 1px solid var(--line); padding-top: 28px; }
+  .q h2 { font-size: 20px; margin: 0; font-weight: 600; text-wrap: balance; display: flex; gap: 12px; align-items: baseline; }
+  .q h2 .n { color: var(--gold); font-variant-numeric: tabular-nums; font-weight: 700; min-width: 1.4em; }
+  .q .hint { margin: -8px 0 0; color: var(--muted); font-size: 14px; }
+
+  .opts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+  .opts.three { grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); }
+  .opts.two { grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); }
+  .opt { position: relative; display: grid; gap: 10px; cursor: pointer; }
+  .opt input { position: absolute; opacity: 0; pointer-events: none; }
+  .opt .card {
+    display: grid; gap: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 10px;
+    background: var(--surface); transition: border-color .15s, background .15s;
+  }
+  .opt:hover .card { border-color: var(--muted); }
+  .opt input:checked + .card { border-color: var(--gold); background: var(--sel-bg); box-shadow: 0 0 0 1px var(--gold) inset; }
+  .opt input:focus-visible + .card { outline: 2px solid var(--focus); outline-offset: 3px; }
+  .label { display: flex; gap: 10px; align-items: baseline; font-size: 15px; }
+  .label b {
+    display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%;
+    border: 1px solid var(--line); font-size: 12px; flex: none; transform: translateY(-1px);
+  }
+  .opt input:checked + .card .label b { background: var(--gold); border-color: var(--gold); color: var(--bg); }
+
+  /* Miniaturas do site: cores fixas, porque ilustram o site, não esta página */
+  .mock {
+    aspect-ratio: 4 / 3; max-width: 100%; border-radius: 6px; overflow: hidden;
+    display: grid; grid-template-rows: auto 1fr; border: 1px solid rgba(0,0,0,.12);
+  }
+  .mock .bar { display: flex; justify-content: space-between; align-items: center; padding: 7px 10px; font-size: 8px; letter-spacing: .16em; font-weight: 700; }
+  .mock .bar i { display: flex; gap: 6px; font-style: normal; font-weight: 400; letter-spacing: .08em; opacity: .7; }
+  .mock .body { padding: 10px; display: grid; gap: 8px; align-content: start; }
+  .r { border-radius: 2px; min-height: 0; }
+  .r1 { background: linear-gradient(165deg, #d9d2c6 0 55%, #b5aa97 55% 100%); }
+  .r2 { background: linear-gradient(180deg, #c7ccc9 0 60%, #8e968f 60% 100%); }
+  .r3 { background: linear-gradient(150deg, #e2dbd0 0 40%, #a88f6f 40% 70%, #6d5d49 70% 100%); }
+  .r4 { background: linear-gradient(200deg, #bfc3c6 0 50%, #7d8388 50% 100%); }
+  .r5 { background: linear-gradient(170deg, #d6c9b3 0 65%, #9b8567 65% 100%); }
+  .r6 { background: linear-gradient(140deg, #cfd3cd 0 45%, #939a8e 45% 100%); }
+  .ln { height: 4px; border-radius: 2px; }
+  .light { background: #fbfbfa; color: #16181a; }
+  .light .ln { background: #d7d7d3; }
+  .dark { background: #141516; color: #eeede9; }
+  .dark .ln { background: #3a3c40; }
+  .ca {
+    display: inline-grid; place-items: center; width: 16px; height: 16px; border: 1px solid #b8955a;
+    color: #b8955a; font: 700 7px/1 "Cormorant Garamond", Georgia, serif; letter-spacing: 0;
+  }
+
+  /* Tipografia */
+  .type { display: grid; gap: 6px; padding: 18px 8px; min-height: 120px; align-content: center; }
+  .type .big { font-size: 22px; line-height: 1.1; overflow-wrap: anywhere; }
+  .type .small { font-size: 13px; color: var(--muted); }
+  .tA .big { font-family: "Syncopate", "Arial Black", sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .06em; }
+  .tB .big { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; font-size: 30px; }
+  .tC .big { font-family: "Jost", "Helvetica Neue", Arial, sans-serif; font-weight: 300; font-size: 27px; letter-spacing: .02em; }
+
+  /* Assinatura */
+  .sig { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: center; padding: 14px 6px; }
+  .sig .mark {
+    width: 44px; height: 44px; display: grid; place-items: center; border: 1.5px solid var(--gold);
+    color: var(--gold); font: 600 18px/1 "Cormorant Garamond", Georgia, serif;
+  }
+  .sig .nm { font-weight: 700; font-size: 16px; letter-spacing: .08em; text-transform: uppercase; }
+  .sig .ds { font-size: 13px; color: var(--muted); }
+  .note { font-size: 13px; color: var(--muted); margin: 0; }
+
+  textarea, input[type="text"] {
+    width: 100%; font: inherit; color: var(--ink); background: var(--surface);
+    border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px;
+  }
+  textarea { min-height: 88px; resize: vertical; }
+  textarea:focus-visible, input[type="text"]:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; border-color: transparent; }
+
+  .plain .card { padding: 14px 16px; }
+
+  .send { display: grid; gap: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; }
+  .send h2 { margin: 0; font-size: 20px; }
+  .send p { margin: 0; color: var(--muted); }
+  .send pre {
+    margin: 0; white-space: pre-wrap; font: 14px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    background: var(--bg); border-radius: 8px; padding: 14px; max-height: 320px; overflow: auto;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  button {
+    font: 600 15px/1 "Archivo", system-ui, sans-serif; padding: 13px 20px; border-radius: 8px; cursor: pointer;
+    border: 1px solid var(--gold); background: var(--gold); color: var(--bg);
+  }
+  button.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+  button:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+  .status { font-size: 14px; color: var(--muted); }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Site Guilherme Calixto · Identidade visual</span>
+    <h1>Escolha o visual do seu site</h1>
+    <p>Toque na opção de que mais gostar em cada pergunta. No final, copie as respostas e mande pelo WhatsApp. Se não tiver certeza, pode deixar em branco.</p>
+    <p class="note">As imagens são esboços. Os blocos coloridos representam os seus renders, e o "CA" representa a sua logo até você mandar o arquivo.</p>
+  </header>
+
+  <form id="f" class="wrap" style="gap:56px" novalidate>
+
+    <!-- 1 -->
+    <section class="q" data-q="1" data-title="Fundo do site">
+      <h2><span class="n">1</span>Fundo do site</h2>
+      <div class="opts three">
+        <label class="opt"><input type="radio" name="q1" id="q1a" value="A" data-desc="Claro">
+          <span class="card">
+            <span class="mock light" aria-hidden="true">
+              <span class="bar"><span class="ca">CA</span><i>SOBRE · PROJETOS · RENDERS</i></span>
+              <span class="body"><span class="r r1" style="height:62px"></span><span class="ln" style="width:60%"></span><span class="ln" style="width:40%"></span></span>
+            </span>
+            <span class="label"><b>A</b>Claro (fundo branco)</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q1" id="q1b" value="B" data-desc="Escuro">
+          <span class="card">
+            <span class="mock dark" aria-hidden="true">
+              <span class="bar"><span class="ca">CA</span><i>SOBRE · PROJETOS · RENDERS</i></span>
+              <span class="body"><span class="r r3" style="height:62px"></span><span class="ln" style="width:60%"></span><span class="ln" style="width:40%"></span></span>
+            </span>
+            <span class="label"><b>B</b>Escuro (fundo preto)</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q1" id="q1c" value="C" data-desc="Misturando os dois">
+          <span class="card">
+            <span class="mock" aria-hidden="true" style="background:#fbfbfa">
+              <span class="bar dark"><span class="ca">CA</span><i>SOBRE · PROJETOS · RENDERS</i></span>
+              <span class="body" style="padding:0;gap:0">
+                <span class="dark" style="display:grid;gap:6px;padding:10px"><span class="r r4" style="height:40px"></span><span class="ln" style="width:50%"></span></span>
+                <span class="light" style="display:grid;gap:6px;padding:10px"><span class="ln" style="width:70%"></span><span class="ln" style="width:45%"></span></span>
+              </span>
+            </span>
+            <span class="label"><b>C</b>Misturando os dois</span>
+          </span>
+        </label>
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section class="q" data-q="2" data-title="Dourado da logo">
+      <h2><span class="n">2</span>Onde usar o dourado da sua logo</h2>
+      <div class="opts three">
+        <label class="opt"><input type="radio" name="q2" id="q2a" value="A" data-desc="Só na logo">
+          <span class="card">
+            <span class="mock light" aria-hidden="true">
+              <span class="bar"><span class="ca">CA</span><i>SOBRE · PROJETOS</i></span>
+              <span class="body">
+                <span class="r r2" style="height:50px"></span>
+                <span class="ln" style="width:55%"></span>
+                <span style="display:inline-block;width:64px;height:14px;border-radius:2px;background:#16181a"></span>
+              </span>
+            </span>
+            <span class="label"><b>A</b>Só na logo</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q2" id="q2b" value="B" data-desc="Na logo e em detalhes (botões, linhas, links)">
+          <span class="card">
+            <span class="mock light" aria-hidden="true">
+              <span class="bar" style="border-bottom:1px solid #b8955a"><span class="ca">CA</span><i style="color:#94743f;opacity:1">SOBRE · PROJETOS</i></span>
+              <span class="body">
+                <span class="r r2" style="height:50px"></span>
+                <span class="ln" style="width:55%"></span>
+                <span style="display:inline-block;width:64px;height:14px;border-radius:2px;background:#b8955a"></span>
+              </span>
+            </span>
+            <span class="label"><b>B</b>Na logo e em detalhes (botões, linhas, links)</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q2" id="q2c" value="C" data-desc="Outra cor de destaque">
+          <span class="card">
+            <span class="mock light" aria-hidden="true">
+              <span class="bar"><span class="ca">CA</span><i>SOBRE · PROJETOS</i></span>
+              <span class="body">
+                <span class="r r2" style="height:50px"></span>
+                <span style="display:flex;gap:6px">
+                  <span style="width:22px;height:22px;border-radius:50%;background:#5f6b52"></span>
+                  <span style="width:22px;height:22px;border-radius:50%;background:#2f4a5c"></span>
+                  <span style="width:22px;height:22px;border-radius:50%;background:#8a4f3a"></span>
+                  <span style="width:22px;height:22px;border-radius:50%;border:1px dashed #9a9a95;display:grid;place-items:center;font-size:11px;color:#777">?</span>
+                </span>
+              </span>
+            </span>
+            <span class="label"><b>C</b>Prefiro outra cor de destaque</span>
+          </span>
+        </label>
+      </div>
+      <input type="text" id="q2outra" placeholder="Se escolheu C, qual cor?" aria-label="Qual outra cor de destaque">
+    </section>
+
+    <!-- 3 -->
+    <section class="q" data-q="3" data-title="Letras dos títulos">
+      <h2><span class="n">3</span>Letras dos títulos</h2>
+      <div class="opts three">
+        <label class="opt"><input type="radio" name="q3" id="q3a" value="A" data-desc="Grandes, caixa-alta e fortes">
+          <span class="card">
+            <span class="type tA"><span class="big">GUILHERME CALIXTO</span><span class="small">Projetos autorais · Renders</span></span>
+            <span class="label"><b>A</b>Grandes, em caixa-alta e fortes (como o João)</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q3" id="q3b" value="B" data-desc="Elegantes, com serifa">
+          <span class="card">
+            <span class="type tB"><span class="big">Guilherme Calixto</span><span class="small">Projetos autorais · Renders</span></span>
+            <span class="label"><b>B</b>Elegantes, com serifa</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q3" id="q3c" value="C" data-desc="Modernas e mais leves">
+          <span class="card">
+            <span class="type tC"><span class="big">Guilherme Calixto</span><span class="small">Projetos autorais · Renders</span></span>
+            <span class="label"><b>C</b>Modernas e mais leves</span>
+          </span>
+        </label>
+      </div>
+    </section>
+
+    <!-- 4 -->
+    <section class="q" data-q="4" data-title="Frase embaixo do nome">
+      <h2><span class="n">4</span>Frase embaixo do seu nome</h2>
+      <p class="hint">Sem a palavra "arquiteto", porque o registro no CAU só vem depois da formatura.</p>
+      <div class="opts two">
+        <label class="opt"><input type="radio" name="q4" id="q4a" value="A" data-desc="Projetista · Visualização 3D">
+          <span class="card">
+            <span class="sig"><span class="mark">CA</span><span><span class="nm">Guilherme Calixto</span><br><span class="ds">Projetista · Visualização 3D</span></span></span>
+            <span class="label"><b>A</b>Projetista · Visualização 3D</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q4" id="q4b" value="B" data-desc="Estudante de Arquitetura e Urbanismo · Render 3D">
+          <span class="card">
+            <span class="sig"><span class="mark">CA</span><span><span class="nm">Guilherme Calixto</span><br><span class="ds">Estudante de Arquitetura e Urbanismo · Render 3D</span></span></span>
+            <span class="label"><b>B</b>Estudante de Arquitetura e Urbanismo · Render 3D</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q4" id="q4c" value="C" data-desc="Projetos e Visualização 3D">
+          <span class="card">
+            <span class="sig"><span class="mark">CA</span><span><span class="nm">Guilherme Calixto</span><br><span class="ds">Projetos e Visualização 3D</span></span></span>
+            <span class="label"><b>C</b>Projetos e Visualização 3D</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q4" id="q4d" value="D" data-desc="Outra">
+          <span class="card">
+            <span class="sig"><span class="mark">CA</span><span><span class="nm">Guilherme Calixto</span><br><span class="ds" id="q4prev">Sua frase aqui</span></span></span>
+            <span class="label"><b>D</b>Outra frase</span>
+          </span>
+        </label>
+      </div>
+      <input type="text" id="q4outra" placeholder="Se escolheu D, escreva a frase" aria-label="Outra frase embaixo do nome">
+    </section>
+
+    <!-- 5 -->
+    <section class="q" data-q="5" data-title="Imagens na página inicial">
+      <h2><span class="n">5</span>Imagens dos projetos na página inicial</h2>
+      <div class="opts three">
+        <label class="opt"><input type="radio" name="q5" id="q5a" value="A" data-desc="Uma imagem grande por projeto">
+          <span class="card">
+            <span class="mock light" aria-hidden="true">
+              <span class="bar"><span class="ca">CA</span><i>PROJETOS</i></span>
+              <span class="body" style="grid-template-rows:1fr auto 1fr">
+                <span class="r r3"></span><span class="ln" style="width:35%"></span><span class="r r6"></span>
+              </span>
+            </span>
+            <span class="label"><b>A</b>Uma imagem grande por projeto</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q5" id="q5b" value="B" data-desc="Grade com várias imagens menores">
+          <span class="card">
+            <span class="mock light" aria-hidden="true">
+              <span class="bar"><span class="ca">CA</span><i>PROJETOS</i></span>
+              <span class="body" style="grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;height:100%">
+                <span class="r r1"></span><span class="r r2"></span><span class="r r3"></span>
+                <span class="r r4"></span><span class="r r5"></span><span class="r r6"></span>
+              </span>
+            </span>
+            <span class="label"><b>B</b>Grade com várias imagens menores</span>
+          </span>
+        </label>
+        <label class="opt"><input type="radio" name="q5" id="q5c" value="C" data-desc="Misto: destaque grande + grade">
+          <span class="card">
+            <span class="mock light" aria-hidden="true">
+              <span class="bar"><span class="ca">CA</span><i>PROJETOS</i></span>
+              <span class="body" style="grid-template-rows:1.4fr 1fr;height:100%">
+                <span class="r r5"></span>
+                <span style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px"><span class="r r2"></span><span class="r r4"></span><span class="r r6"></span></span>
+              </span>
+            </span>
+            <span class="label"><b>C</b>Misto: um destaque grande e uma grade</span>
+          </span>
+        </label>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section class="q" data-q="6" data-title="O que não quer">
+      <h2><span class="n">6</span>Tem algo que você não quer no site?</h2>
+      <textarea id="q6" placeholder="Ex.: muita animação, texto demais, cores fortes…"></textarea>
+    </section>
+
+    <!-- 7 -->
+    <section class="q" data-q="7" data-title="Outras referências">
+      <h2><span class="n">7</span>Outras referências de que você gosta</h2>
+      <p class="hint">Perfis do Instagram, sites de arquitetos ou escritórios. Pode colar os links.</p>
+      <textarea id="q7" placeholder="@perfil, site.com.br…"></textarea>
+    </section>
+
+    <!-- 8 -->
+    <section class="q" data-q="8" data-title="Arquivo da logo">
+      <h2><span class="n">8</span>Arquivo da sua logo</h2>
+      <p class="hint">Mande o arquivo pelo WhatsApp ou por e-mail. De preferência em .svg, .ai ou .pdf; se só tiver imagem, .png serve.</p>
+      <div class="opts">
+        <label class="opt plain"><input type="radio" name="q8" id="q8a" value="A" data-desc="Tenho em vetor (.svg, .ai ou .pdf)"><span class="card"><span class="label"><b>A</b>Tenho em vetor (.svg, .ai ou .pdf)</span></span></label>
+        <label class="opt plain"><input type="radio" name="q8" id="q8b" value="B" data-desc="Só tenho em imagem (.png ou .jpg)"><span class="card"><span class="label"><b>B</b>Só tenho em imagem (.png ou .jpg)</span></span></label>
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="q" data-q="9" data-title="Foto profissional">
+      <h2><span class="n">9</span>Foto sua para o "Sobre"</h2>
+      <div class="opts three">
+        <label class="opt plain"><input type="radio" name="q9" id="q9a" value="A" data-desc="Já tenho foto profissional"><span class="card"><span class="label"><b>A</b>Já tenho foto profissional</span></span></label>
+        <label class="opt plain"><input type="radio" name="q9" id="q9b" value="B" data-desc="Pretendo fazer"><span class="card"><span class="label"><b>B</b>Pretendo fazer</span></span></label>
+        <label class="opt plain"><input type="radio" name="q9" id="q9c" value="C" data-desc="Prefiro não usar foto"><span class="card"><span class="label"><b>C</b>Prefiro não usar foto</span></span></label>
+      </div>
+    </section>
+
+    <section class="send" aria-labelledby="send-t">
+      <h2 id="send-t">Suas respostas</h2>
+      <p>Copie o texto abaixo e cole na conversa do WhatsApp.</p>
+      <pre id="out"></pre>
+      <div class="row">
+        <button type="button" id="copy">Copiar respostas</button>
+        <button type="button" class="ghost" id="clear">Limpar</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+    </section>
+  </form>
+</div>
+
+<script>
+(function () {
+  var form = document.getElementById('f');
+  var out = document.getElementById('out');
+  var status = document.getElementById('status');
+  var KEY = 'gc-visual-respostas';
+  var fields = ['q2outra', 'q4outra', 'q6', 'q7'];
+
+  function build() {
+    var lines = ['Respostas — visual do site'];
+    document.querySelectorAll('.q').forEach(function (sec) {
+      var n = sec.dataset.q, title = sec.dataset.title, ans = '';
+      var picked = sec.querySelector('input[type=radio]:checked');
+      if (picked) ans = picked.value + ' (' + picked.dataset.desc + ')';
+      if (n === '2' && picked && picked.value === 'C') {
+        var c = document.getElementById('q2outra').value.trim();
+        if (c) ans = 'C (outra cor: ' + c + ')';
+      }
+      if (n === '4' && picked && picked.value === 'D') {
+        var t = document.getElementById('q4outra').value.trim();
+        ans = 'D (' + (t || 'outra frase') + ')';
+      }
+      if (n === '6' || n === '7') ans = document.getElementById('q' + n).value.trim();
+      lines.push(n + '. ' + title + ': ' + (ans || '—'));
+    });
+    return lines.join('\n');
+  }
+
+  function save() {
+    var data = {};
+    form.querySelectorAll('input[type=radio]:checked').forEach(function (r) { data[r.name] = r.value; });
+    fields.forEach(function (id) { data[id] = document.getElementById(id).value; });
+    try { localStorage.setItem(KEY, JSON.stringify(data)); } catch (e) {}
+  }
+
+  function load() {
+    var data = null;
+    try { data = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) {}
+    if (!data) return;
+    Object.keys(data).forEach(function (k) {
+      if (/^q\d$/.test(k)) {
+        var r = form.querySelector('input[name="' + k + '"][value="' + data[k] + '"]');
+        if (r) r.checked = true;
+      } else {
+        var el = document.getElementById(k);
+        if (el) el.value = data[k];
+      }
+    });
+  }
+
+  function update() {
+    var t = document.getElementById('q4outra').value.trim();
+    document.getElementById('q4prev').textContent = t || 'Sua frase aqui';
+    out.textContent = build();
+    status.textContent = '';
+    save();
+  }
+
+  document.getElementById('q2outra').addEventListener('input', function () {
+    if (this.value.trim()) document.getElementById('q2c').checked = true;
+  });
+  document.getElementById('q4outra').addEventListener('input', function () {
+    if (this.value.trim()) document.getElementById('q4d').checked = true;
+  });
+
+  form.addEventListener('input', update);
+  form.addEventListener('change', update);
+  form.addEventListener('submit', function (e) { e.preventDefault(); });
+
+  document.getElementById('copy').addEventListener('click', function () {
+    var text = build();
+    function fallback() {
+      var range = document.createRange();
+      range.selectNodeContents(out);
+      var sel = window.getSelection();
+      sel.removeAllRanges(); sel.addRange(range);
+      status.textContent = 'Texto selecionado. Use Copiar do seu aparelho.';
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () {
+        status.textContent = 'Copiado. Agora é só colar no WhatsApp.';
+      }, fallback);
+    } else { fallback(); }
+  });
+
+  document.getElementById('clear').addEventListener('click', function () {
+    form.reset();
+    try { localStorage.removeItem(KEY); } catch (e) {}
+    update();
+    status.textContent = 'Respostas apagadas.';
+  });
+
+  load();
+  update();
+})();
+</script>
